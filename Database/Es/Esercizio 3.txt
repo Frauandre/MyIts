@@ -1,0 +1,81 @@
+SCHEMA RELAZIONALE:
+MUSEI (NomeM sottolineato, Città)
+ARTISTI (NomeA sottolineato, Nazionalità)
+OPERE (Codice sottolineato, Titolo, NomeM*, NomeA*)
+PERSONAGGI (Personaggio sottolineato, Codice*sottolineato) 
+
+
+STRUTTURA Tabelle:
+MUSEI
+create table MUSEI 
+    (NomeM VarChar(20) primary key,
+    Citta VarChar(20));
+ +-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| NomeM | varchar(20) | NO   | PRI | NULL    |       |
+| Citta | varchar(20) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+
+
+ARTISTI:
+create table ARTISTI 
+    (NomeA VarChar(20) primary key,
+    Nazionalita VarChar(20));
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| NomeA       | varchar(20) | NO   | PRI | NULL    |       |
+| Nazionalita | varchar(20) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+Opere:
+
+create table OPERE 
+    (Codice VarChar(20) primary key,
+    Titolo VarChar(20),
+    NomeM VarChar(20),
+    NomeA VarChar(20));
+alter table opere add  FOREIGN KEY (NomeM) references MUSEI (NomeM);
+alter table opere add  FOREIGN KEY (NomeA) references ARTISTI (NomeA);
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| Codice | varchar(20) | NO   | PRI | NULL    |       |
+| Titolo | varchar(20) | YES  |     | NULL    |       |
+| NomeM  | varchar(20) | YES  | MUL | NULL    |       |
+| NomeA  | varchar(20) | YES  | MUL | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+
+PERSONAGGI: 
+
+create table PERSONAGGI 
+    (Personaggio VarChar(20) primary key,
+    Codice VarChar(20));
+alter table PERSONAGGI add  FOREIGN KEY (Codice) references OPERE (Codice);
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| Personaggio | varchar(20) | NO   | PRI | NULL    |       |
+| Codice      | varchar(20) | YES  | MUL | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+
+Compilamento  tabelle:
+
+MUSEI:
+
+insert into MUSEI (NomeM,Citta)
+values ('“National Gallery','Londra'),
+        ('Galleria degli Uffizi','Firenze');
++----------------------+---------+
+| NomeM                | Citta   |
++----------------------+---------+
+| "National Gallery    | Londra  |
+| Galleria degli Uffiz | Firenze |
++----------------------+---------+
+
+
+
+
+

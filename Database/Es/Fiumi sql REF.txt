@@ -1,0 +1,249 @@
+Esercizio:Testo:
+
+
+FIUME (NomeF, Portata, Navigabile)
+nomef : Nome del fiume
+portata : Portata del fiume
+navigabile : Vale “vero” se il fiume è navigabile, “falso” in caso contrario
+
+PROVINCIA (NomeP, Nab, NomeR)
+nomep : Nome della provincia
+nab : Numero di abitanti della provincia
+nomer: Nome della regione di appartenenza
+
+ATTRAVERSA (NomeP, NomeP, Km)
+nomef : Nome del fiume
+nomep : Nome della provincia attraversata dal fiume
+km : Numero di km del fiume nella provincia
+
+
+Tabella FIUME: 
+create table FIUME (NomeF VarChar(20),Portata VarChar(20), Navigabile decimal(1));
+//creazione
+insert into FIUME (NomeF,Portata,Navigabile)
+values ('Po','1540','1'),
+        ('Adige','235','1'),
+        ('Dora Baltea','96','0'),
+        ('Adda','187','1'),
+        ('Tevere','230','1'),
+        ('Tirso','4','0'),
+        ('Volturno','82','0');
+
+
+
+
+
+Tabella PROVINCIA: 
+create table PROVINCIA (NomeP VarChar(20),Nab decimal(20), NomeR VarChar(20));
+//creazione
+insert into PROVINCIA (NomeP,Nab,NomeR)
+values ('Aosta','83455','Valle d_aosta'),
+        ('Aosta','520891','Trentino'),
+        ('Como','599654','Lombardia'),
+        ('Isernia','86405','Molise'),
+        ('Lecco','339254','Lombardia'),
+        ('Lodi','447779','Lombardia'),
+        ('Parma','83455','Emilia Romania'),
+        ('Rieti','158467','Lazio'),
+        ('Roma','435400','Lazio'),
+        ('Sassari','334103','Sardegna'),
+        ('Sondrio','181712','Lombardia'),
+        ('Torino','2282000','Piemonte'),
+        ('Vercelli','174904','Piemonte'),
+        ('Verona','922383','Veneto');
+
+
+Tabella ATTRAVERSA:
+create table ATTRAVERSA (NomeF VarChar(20),NomeP VarChar(20), Km decimal(65));
+//creazione
+insert into ATTRAVERSA (NomeF,NomeP,Km)
+values ('Adda','Sondrio','33'),
+        ('Adda','Como','12'),
+        ('Adda','Lecco','8'),
+        ('Adige','Bolzano','15'),
+        ('Adige','Verona','22'),
+        ('Dora Baltea','Aosta','2'),
+        ('Dora Baltea','Torino','78'),
+        ('Po','Torino','44'),
+        ('Po','Vercelli','23'),
+        ('Po','Lodi','11'),
+        ('Po','Parma','37'),
+        ('Tevere','Roma','45'),
+        ('Tevere','Rieti','19'),
+        ('Tirso','Sassari','16'),
+        ('Volturno','Isernia','10');
+
+table:
++-------------+------------+---------+
+| NomeF       | Navigabile | Portata |
++-------------+------------+---------+
+| Adda        |          1 |     187 |
+| Po          |          1 |    1540 |
+| Adige       |          1 |     235 |
+| Dora Baltea |          0 |      96 |
+| Tevere      |          1 |     230 |
+| Tirso       |          0 |       4 |
+| Volturno    |          0 |      82 |
++-------------+------------+---------+
++----------+---------+----------------+
+| NomeP    | Nab     | NomeR          |
++----------+---------+----------------+
+| Aosta    |   83455 | Valle d_aosta  |
+| Aosta    |  520891 | Trentino       |
+| Como     |  599654 | Lombardia      |
+| Isernia  |   86405 | Molise         |
+| Lecco    |  339254 | Lombardia      |
+| Lodi     |  447779 | Lombardia      |
+| Parma    |   83455 | Emilia Romania |
+| Rieti    |  158467 | Lazio          |
+| Roma     |  435400 | Lazio          |
+| Sassari  |  334103 | Sardegna       |
+| Sondrio  |  181712 | Lombardia      |
+| Torino   | 2282000 | Piemonte       |
+| Vercelli |  174904 | Piemonte       |
+| Verona   |  922383 | Veneto         |
++----------+---------+----------------+
++-------------+----------+------+
+| NomeF       | NomeP    | Km   |
++-------------+----------+------+
+| Adda        | Sondrio  |   33 |
+| Adda        | Como     |   12 |
+| Adda        | Lecco    |    8 |
+| Adige       | Bolzano  |   15 |
+| Adige       | Verona   |   22 |
+| Dora Baltea | Aosta    |    2 |
+| Dora Baltea | Torino   |   78 |
+| Po          | Torino   |   44 |
+| Po          | Vercelli |   23 |
+| Po          | Lodi     |   11 |
+| Po          | Parma    |   37 |
+| Tevere      | Roma     |   45 |
+| Tevere      | Rieti    |   19 |
+| Tirso       | Sassari  |   16 |
+| Volturno    | Isernia  |   10 |
++-------------+----------+------+
+
+Query:
+a: visualizzare il nome di tutte le province;
+select nomep from provincia;
+
+b: visualizzare il nome di tutte le regioni (una sola volta);
+select distinct nomer from provincia;
+
+c: visualizzare il nome di tutti i fiumi;
+select  NomeF from fiume;
+
+d: visualizzare il nome di tutti i fiumi suddivisi in navigabili e non;
+select nomef
+from fiume
+order by navigabile;
+
+e: visualizzare le province che si trovano in una determinata regione;
+select *
+from provincia
+where NomeR = 'Piemonte';
+
+f: visualizzare il numero di province suddiviso per regione;
+select NomeR,count(*)
+from provincia
+group by NomeR;
+
+g: visualizzare il numero di abitanti per una determinata regione;//NomeR e la somma di somma nab
+select NomeR, sum(nab)  
+from provincia
+where nomer = 'Lombardia';
+
+h: visualizzare la media degli abitanti per ogni regione;
+select avg(nab), nomer
+from provincia
+group by NomeR;
+
+i: visualizzare il numero di abitanti per ogni regione; (quindi sommando le città)
+select nomer, sum(Nab) 
+from provincia
+group by nomer;
+
+l: visualizzare il nome dei fiumi che attraversano una determinata provincia;
+select NomeF
+from ATTRAVERSA
+where nomep = 'Torino';
+
+m: visualizzare il nome delle province attraversate da un determinato fiume;
+select nomep
+from ATTRAVERSA
+where NomeF = 'Po';
+
+n: visualizzare il nome delle regioni attraversate da un determinato fiume;
+select distinct provincia.NomeR
+from ATTRAVERSA,provincia
+where ATTRAVERSA.nomep=provincia.nomep and ATTRAVERSA.nomef='po';
+
+o: visualizzare la lunghezza totale di un determinato fiume;
+select Nomef, sum(km)
+from ATTRAVERSA
+group by nomef;
+
+p: visualizzare il nome della provincia che ha il maggior numero di abitanti;
+select nomep
+from provincia
+where nab=(select max(nab)
+        from provincia);
+
+q: visualizzare il nome del fiume che attraversa più regioni;
+select attraversa.nomef,count(distinct provincia.nomer)
+from attraversa,provincia
+where attraversa.nomep=provincia.nomep
+group by attraversa.nomef
+order by count(distinct provincia.nomer) DESC
+limit 1;
+
+r: visualizzare il nome delle province non attraversate da fiumi;
+select nomep
+from provincia 
+where nomep not in (select attraversa.nomep
+                from attraversa,provincia
+                where attraversa.nomep=provincia.nomep);
+
+s: visualizzare il nome dei fiumi che sono lunghi più di 80 km;
+select nomef
+from attraversa
+group by nomef
+having sum(km)>80;
+
+t: caricare in una nuova tabella il nome dei fiumi che attraversano più di quattro province
+create table fiumi_4_province as
+select nomef
+from attraversa
+group by nomef
+having count(nomef)>4;
+
+u: modificare la lunghezza di un determinato fiume;
+update attraversa
+set km=37
+where nomep='Vercelli' and nomef='po';
+
+v: aumentare del 10% il numero di abitanti delle province 
+che si trovano in una determinata regione.
+
+update provincia
+set nab=nab+(nab*0.1)
+where nomer='emilia romania';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

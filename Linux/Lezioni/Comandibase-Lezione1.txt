@@ -1,0 +1,15 @@
+#Lezione 1 Linux. Primi comandi
+
+$ e # sono dei permessi
+Il cancelletto(#) ti permette di avere i permessi di un amministratore
+Il dollaro ($) ti permette di avere i permessi di un user
+-$ ls: cerca cartelle.
+-$ ls -lha: cerca tutti i file, anche quelli nascosti
+-$ls- -lh: cerca tutti i file accessibili, non quelli nascosti
+-$ cd Documenti: da accesso ai documenti della directory aggiungendo anche la clausola
+-$ touch miofile: crea un file
+-$ echo 'nome file': mostra il file
+-$ echo ciao>miofile: scrive all'interno del file creato
+-$ nano miofile: legge  file
+-$ cat miofile: legge il file senza aprire schermate
+

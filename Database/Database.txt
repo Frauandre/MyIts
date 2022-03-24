@@ -1,0 +1,10 @@
+('AAABB1', 'Software',  '******', 'Sala2', 'Giorgio_Muratore'), 
+('BBBCC2', 'Software_Engineering',  '******', 'Sala3', 'Luca_Denaro'), 
+('CCCDD3', 'Software',  '******', 'Sala2', 'Federico_Betti'), 
+('DDDEE4', 'Mechanical_Engineering',  '******', 'Sala1, 'Gianmarco_Tocco'), 
+('EEEFF5',  'Mechanical_Engineering',  '******', 'Sala1', 'Cristiano_Spadaccini'), 
+('FFFGG6',  'Software',  '******', 'Sala2', 'Andrea_Grassi'), 
+('GGGHH7', 'Software', '******', 'Sala2', 'Giovanni_Leveghi'), 
+('HHHII8', 'Software_Engineering', '******',  'Sala3', 'Dario_Moccia'); 
+
+

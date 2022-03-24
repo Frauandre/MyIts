@@ -1,0 +1,7 @@
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\bin\Debug\Benvenuto.exe.config
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\bin\Debug\Benvenuto.exe
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\bin\Debug\Benvenuto.pdb
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.exe
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.pdb

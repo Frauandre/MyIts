@@ -1,0 +1,59 @@
+Lezione 3 html
+
+HTML Forms
+
+<form action="/processing-page.php" target="_blank" method="post">
+<ul>
+ <li>
+ <label for="name">Name:</label> <!--etichetta-->
+ <input type="text" id="name" name="user_name">
+ </li>
+ <li>
+ <label for="password">Password:</label>
+ <input type="password" id="password" name="pswd">
+ </li>
+</ul>
+</form>
+
+Differenza get/post: 
+
+Radio buttons: <!--scelte-->
+<form action="..." method="post" target="_blank">
+ <input type="radio" name="gender" id="male" value="man">
+ <label for="male">Male</label>
+ <input type="radio" name="gender" id="female" value="woman" checked="checked">
+ <label for="female">Female</label>
+ <button type="submit">Send</button>
+</form>
+
+Check boxes: <!--più scelte-->
+<form action="..." method="get" target="_blank">
+ <input type="checkbox" name="sports" id="soccer" value="soccer-sport">
+ <label for="soccer">Soccer</label>
+ <input type="checkbox" name="sports" id="baseball" value="baseball-sport" checked="checked">
+ <label for="baseball">Baseball</label>
+ <button type="submit">Send</button>
+</form>
+
+Dropdown menus: <!--Menù a tendina con scelte-->
+<form>
+ <label for="city">City:</label>
+ <select name="city" id="city"> <!--multiple, se messo ti permetterà di scegliere più opzioni dalla tendina-->
+ <option value="sydney">Sydney</option>
+ <option value="melbourne">Melbourne</option>
+ <option value="cromwell" selected>Cromwell</option>
+ </select>
+</form>
+
+File select: <!--Upload di un file a scelta-->
+<form>
+ <label for="file-select">Upload:</label>
+ <input type="file" name="upload" id="file-select">
+</form>
+
+Text area: <!--caselle di testo-->
+<form>
+        <label for="address">Address:</label>
+        <textarea rows="4" cols="20" name="address" id="address"></textarea>
+       </form>
+

@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\Stampa200InteriPariPositivi.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\Stampa200InteriPariPositivi.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\Stampa200InteriPariPositivi.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\Stampa200InteriPariPositivi.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\Stampa200InteriPariPositivi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\ref\Stampa200InteriPariPositivi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\bin\Debug\net5.0\Stampa200InteriPariPositivi.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\ref\Stampa200InteriPariPositivi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\Stampa200InteriPariPositivi\obj\Debug\net5.0\Stampa200InteriPariPositivi.genruntimeconfig.cache

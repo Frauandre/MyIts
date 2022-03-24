@@ -1,0 +1,7 @@
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\bin\Debug\Somma2Interi.exe.config
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\bin\Debug\Somma2Interi.exe
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\bin\Debug\Somma2Interi.pdb
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.exe
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.pdb

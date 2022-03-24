@@ -1,0 +1,7 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\bin\Debug\QuadratoConsole.exe.config
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\bin\Debug\QuadratoConsole.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\bin\Debug\QuadratoConsole.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\obj\Debug\QuadratoConsole.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\obj\Debug\QuadratoConsole.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\obj\Debug\QuadratoConsole.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\QuadratoConsole\obj\Debug\QuadratoConsole.pdb

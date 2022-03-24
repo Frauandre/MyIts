@@ -1,0 +1,211 @@
+Database Convetion:
+Create Database Convetion
+
+Dipendente:
+
+create table Dipendente 
+    (Cognome_Nome VarChar(30) primary key,
+    Nazione VarChar(20),
+    Eta Decimal(20),
+    Filiale VarChar(20),
+    Gruppo_di_Lavoro VarChar(06),
+    FOREIGN key (Gruppo_di_Lavoro) references gruppo_lavoro(Codice)
+    );
+
++------------------+---------------+------+-----+---------+-------+
+| Field            | Type          | Null | Key | Default | Extra |
++------------------+---------------+------+-----+---------+-------+
+| Cognome_Nome     | varchar(30)   | NO   | PRI | NULL    |       |
+| Nazione          | varchar(20)   | YES  |     | NULL    |       |
+| Eta              | decimal(20,0) | YES  |     | NULL    |       |
+| Filiale          | varchar(20)   | YES  |     | NULL    |       |
+| Gruppo_di_Lavoro | varchar(20)   | YES  | MUL | NULL    |       |
++------------------+---------------+------+-----+---------+-------+
+
+GRUPPO_LAVORO :
+create table GRUPPO_LAVORO
+    (Codice VarChar(6) primary key,
+    Titolo VarChar(20),
+    Descrizione VarChar(65),
+    Sala VarChar(20),
+    Referente VarChar(20));
+
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| Codice      | varchar(6)  | NO   | PRI | NULL    |       |
+| Titolo      | varchar(20) | YES  |     | NULL    |       |
+| Descrizione | varchar(65) | YES  |     | NULL    |       |
+| Sala        | varchar(20) | YES  |     | NULL    |       |
+| Referente   | varchar(20) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+ alter table Dipendente add  FOREIGN KEY (Gruppo_di_Lavoro) references GRUPPO_LAVORO (Codice);
+
+
+//inserimenti dati DIPENDENTE:
+
+insert into DIPENDENTE (Cognome_Nome,Nazione,Eta,Filiale,Gruppo_di_Lavoro)
+values ('Angelique_Anne','Francese','65','FIL7','Ab000C'),
+        ('Christophe_Martine','Francese','51','FIL7','Ab010C'),
+        ('Philippe_Catherine','Francese','58','FIL7','Ab086C'),
+        ('Rene_Denise','Francese','35','FIL6','Ab684C'),
+        ('Antonio_Rossi','Italiano','40','FIL7','Ab814C'),
+        ('Goku_Sama','Giapponese','25','FIL4','Ab249C'),
+        ('Hamed_Seydou','Spagnolo','36','FIL3','Ab083C');
+
++--------------------+------------+------+---------+------------------+
+| Cognome_Nome       | Nazione    | Eta  | Filiale | Gruppo_di_Lavoro |
++--------------------+------------+------+---------+------------------+
+| Angelique_Anne     | Francese   |   65 | FIL7    | NULL             |
+| Antonio_Rossi      | Italiano   |   40 | FIL7    | NULL             |
+| Christophe_Martine | Francese   |   51 | FIL7    | NULL             |
+| Goku_Sama          | Giapponese |   25 | FIL4    | NULL             |
+| Hamed_Seydou       | Spagnolo   |   36 | FIL3    | NULL             |
+| Mario_Bianchi      | Italiano   |   80 | FIL4    | NULL             |
+| Philippe_Catherine | Francese   |   58 | FIL7    | NULL             |
+| Rene_Denise        | Francese   |   35 | FIL6    | NULL             |
++--------------------+------------+------+---------+------------------+
+
+
+//inserimenti dati GRUPPO_LAVORO:
+        insert into GRUPPO_LAVORO (Codice,Titolo,Descrizione,Sala,Referente)
+values ('Ab000C','Software','******','Sala1','Luca_Bellucci'),
+        ('Ab010C','Software','******','Sala1','Dario_Moccia'),
+        ('Ab086C','Software_Engineering','******','Sala2','Luca_Mangaka'),
+        ('Ab684C','Software','******','Sala1','Tedua_Dan'),
+        ('Ab814C','Marketing','******','Sala3','Tradez'),
+        ('Ab249C','mechanical_Engineering','******','Sala4','Maroco'),
+        ('Ab083C','mechanical_Engineering','******','Sala4','Giacomino'),
+        ('Ab189C','Marketing','******','Sala3','Aldo_Baglio');
+
++--------+----------------------+-------------+-------+---------------+
+| Codice | Titolo               | Descrizione | Sala  | Referente     |
++--------+----------------------+-------------+-------+---------------+
+| Ab000C | Software             | ******      | Sala1 | Luca_Bellucci |
+| Ab010C | Software             | ******      | Sala1 | Dario_Moccia  |
+| Ab083C | mechanical_Engineeri | ******      | Sala4 | Giacomino     |
+| Ab086C | Software_Engineering | ******      | Sala2 | Luca_Mangaka  |
+| Ab189C | Marketing            | ******      | Sala3 | Aldo_Baglio   |
+| Ab249C | mechanical_Engineeri | ******      | Sala4 | Maroco        |
+| Ab684C | Software             | ******      | Sala1 | Tedua_Dan     |
+| Ab814C | Marketing            | ******      | Sala3 | Tradez        |
++--------+----------------------+-------------+-------+---------------+
+
+//insert Gruppo_di_Lavoro
+insert into DIPENDENTE gruppo_lavoro (Gruppo_di_Lavoro)
+values (Codice);
+
+
+
+
+
+a.	Elencare i partecipanti francesi con più di 50 anni
+
+select Cognome_Nome,Eta                         
+from DIPENDENTE
+group by Cognome_Nome
+having sum(Eta)>50; 
++--------------------+------+
+| Cognome_Nome       | Eta  |
++--------------------+------+
+| Angelique_Anne     |   65 |
+| Christophe_Martine |   51 |
+| Mario_Bianchi      |   80 |
+| Philippe_Catherine |   58 |
++--------------------+------+
+
+b.	Elencare tutti i gruppi di lavoro legati al “software” :
+
+select * from GRUPPO_LAVORO
+where titolo = 'Software'
+and Descrizione = '******';
++--------+----------+-------------+-------+---------------+
+| Codice | Titolo   | Descrizione | Sala  | Referente     |
++--------+----------+-------------+-------+---------------+
+| Ab000C | Software | ******      | Sala1 | Luca_Bellucci |
+| Ab010C | Software | ******      | Sala1 | Dario_Moccia  |
+| Ab684C | Software | ******      | Sala1 | Tedua_Dan     |
++--------+----------+-------------+-------+---------------+
+
+
+c.	Elencare le nazioni in cui vi sono dei dipendenti
+select nazione from dipendente;
++------------+
+| nazione    |
++------------+
+| Francese   |
+| Italiano   |
+| Francese   |
+| Giapponese |
+| Spagnolo   |
+| Francese   |
+| Francese   |
++------------+
+
+
+d.Elencare i partecipanti stranieri della filiale “FIL7” e
+ il titolo del gruppo di lavoro a cui partecipano
+
+select * from dipendente
+where filiale = 'fil7' and not nazione = 'italiano';
++--------------------+----------+------+---------+------------------+
+| Cognome_Nome       | Nazione  | Eta  | Filiale | Gruppo_di_Lavoro |
++--------------------+----------+------+---------+------------------+
+| Angelique_Anne     | Francese |   65 | FIL7    | Ab000C           |
+| Christophe_Martine | Francese |   51 | FIL7    | Ab010C           |
+| Philippe_Catherine | Francese |   58 | FIL7    | Ab086C           |
++--------------------+----------+------+---------+------------------+
+
+e.Contare quanti sono i partecipanti per ogni gruppo di lavoro
+select count(Cognome_Nome) 
+from dipendente
+group by Gruppo_di_Lavoro;
++---------------------+
+| count(Cognome_Nome) |
++---------------------+
+|                   2 |
+|                   1 |
+|                   1 |
+|                   1 |
+|                   1 |
+|                   1 |
+|                   1 |
++---------------------+
+
+
+
+f.Modificare la sala del gruppo di lavoro “Software Engineering”
+update gruppo_lavoro
+set sala = 'sala225'
+where titolo = 'Software_Engineering';
+Query OK, 1 row affected (0.004 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [provaesame]> select * from gruppo_lavoro;
++--------+----------------------+-------------+---------+---------------+
+| Codice | Titolo               | Descrizione | Sala    | Referente     |
++--------+----------------------+-------------+---------+---------------+
+| Ab000C | Software             | ******      | Sala1   | Luca_Bellucci |
+| Ab010C | Software             | ******      | Sala1   | Dario_Moccia  |
+| Ab083C | mechanical_Engineeri | ******      | Sala4   | Giacomino     |
+| Ab086C | Software_Engineering | ******      | sala225 | Luca_Mangaka  |
+| Ab189C | Marketing            | ******      | Sala3   | Aldo_Baglio   |
+| Ab249C | mechanical_Engineeri | ******      | Sala4   | Maroco        |
+| Ab684C | Software             | ******      | Sala1   | Tedua_Dan     |
+| Ab814C | Marketing            | ******      | Sala3   | Tradez        |
++--------+----------------------+-------------+---------+---------------+
+
+
+g.Trovare il dipendente più anziano e la sala in cui si trova
+
+select cognome_Nome,sala,eta 
+from gruppo_lavoro,dipendente
+where dipendente.Gruppo_di_Lavoro=gruppo_lavoro.codice 
+and Eta in (select max(eta) from dipendente);
+
++----------------+-------+------+
+| cognome_Nome   | sala  | eta  |
++----------------+-------+------+
+| Angelique_Anne | Sala1 |   65 |
++----------------+-------+------+

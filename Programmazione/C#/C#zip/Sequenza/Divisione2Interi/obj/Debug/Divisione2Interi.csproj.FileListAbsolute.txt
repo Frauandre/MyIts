@@ -1,0 +1,7 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\bin\Debug\Divisione2Interi.exe.config
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\bin\Debug\Divisione2Interi.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\bin\Debug\Divisione2Interi.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.pdb

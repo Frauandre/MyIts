@@ -1,0 +1,194 @@
+//CREAZIONE DEL DATABASE E UTILIZZO:
+
+create database conference;
+use conference;
+
+//CREAZIONE DELLA PRIMA TABELLA RELATORE:
+
+Create table Relatore
+    -> (Cognome_Nome VarChar(20) PRIMARY KEY,
+    -> Nazionalita VarChar(20),
+    -> Anni Decimal(2),
+    -> Campo_di_interesse VarChar(30));
+
+//CREAZIONE DELLA SECONDA TABELLE CONFERENZE:
+Create table Conferenze
+    -> (Codice Decimal(6) primary key,
+    -> Titolo VarChar(20),
+    -> Descrizione VarChar(30),
+    -> Sala VarChar(20),
+    -> Nome_Relatore VarChar(20),
+    -> FOREIGN KEY (Nome_Relatore) references Relatore(Cognome_Nome));
+
+//VERIFICA DELLE TABELLE:
+
+describe Relatore;
++--------------------+--------------+------+-----+---------+-------+
+| Field              | Type         | Null | Key | Default | Extra |
++--------------------+--------------+------+-----+---------+-------+
+| Cognome_Nome       | varchar(20)  | NO   | PRI | NULL    |       |
+| Nazionalita        | varchar(20)  | YES  |     | NULL    |       |
+| Anni               | decimal(2,0) | YES  |     | NULL    |       |
+| Campo_di_interesse | varchar(30)  | YES  |     | NULL    |       |
++--------------------+--------------+------+-----+---------+-------+
+
+describe Conferenze;
++---------------+--------------+------+-----+---------+-------+
+| Field         | Type         | Null | Key | Default | Extra |
++---------------+--------------+------+-----+---------+-------+
+| Codice        | decimal(6,0) | NO   | PRI | NULL    |       |
+| Titolo        | varchar(20)  | YES  |     | NULL    |       |
+| Descrizione   | varchar(30)  | YES  |     | NULL    |       |
+| Sala          | varchar(20)  | YES  |     | NULL    |       |
+| Nome_Relatore | varchar(20)  | YES  | MUL | NULL    |       |
++---------------+--------------+------+-----+---------+-------+
+
+//INSERIMENTO DEI DATI NELLA TABELLA RELATORE:
+
+insert into Relatore(Cognome_Nome, Nazionalita, Anni, Campo_di_interesse)
+    -> values ('Bitta_Paolo', 'Italia', '47', 'Azioni'),
+    -> ('Litmanen_Gary', 'Finlandia', '41', 'Economia'),
+    -> ('Petit_Favre', 'Francia', '38', 'Admin'),
+    -> ('Nervi_Luca', 'Italia', '44', 'Azioni'),
+    -> ('Pena_Carlos', 'Colombia', '35', 'Economia'),
+    -> ('Lennon_Paul', 'Canada', '36', 'Admin');
+
+//INSERIMENTO DATI NELLA TABELLA CONFERENZE:
+
+ insert into Conferenze(Codice, Titolo, Descrizione, Sala, Nome_Relatore)
+    values ('111111', 'Investitore', 'Azioni', 'Sala_Blu', 'Bitta_Paolo'),
+             ('222222', 'Control_Viewer', 'Admin', 'Sala_Rossa', 'Lennon_Paul'),
+             ('333333', 'Business', 'Economia', 'Sala_Verde', 'Litmanen_Gary'),
+             ('444444', 'Investitore', 'Azioni', 'Sala_Blu', 'Nervi_Luca'), 
+             ('555555', 'Control_Viewer', 'Admin', 'Sala_Rossa', 'Pena_Carlos'),
+             ('666666', 'Business', 'Economia', 'Sala_Verde', 'Petit_Favre');
+
+//VERIFICA DEI DATI ALL INTERNO DELLE TABELLE:
+
+select * from Relatore;
++---------------+-------------+------+--------------------+
+| Cognome_Nome  | Nazionalita | Anni | Campo_di_interesse |
++---------------+-------------+------+--------------------+
+| Bitta_Paolo   | Italia      |   47 | Azioni             |
+| Lennon_Paul   | Canada      |   36 | Admin              |
+| Litmanen_Gary | Finlandia   |   41 | Economia           |
+| Nervi_Luca    | Italia      |   44 | Azioni             |
+| Pena_Carlos   | Colombia    |   35 | Economia           |
+| Petit_Favre   | Francia     |   38 | Admin              |
++---------------+-------------+------+--------------------+
+
+select * from Conferenze;
++--------+----------------+-------------+------------+---------------+
+| Codice | Titolo         | Descrizione | Sala       | Nome_Relatore |
++--------+----------------+-------------+------------+---------------+
+| 111111 | Investitore    | Azioni      | Sala_Blu   | Bitta_Paolo   |
+| 222222 | Control_Viewer | Admin       | Sala_Rossa | Lennon_Paul   |
+| 333333 | Business       | Economia    | Sala_Verde | Litmanen_Gary |
+| 444444 | Investitore    | Azioni      | Sala_Blu   | Nervi_Luca    |
+| 555555 | Control_Viewer | Admin       | Sala_Rossa | Pena_Carlos   |
+| 666666 | Business       | Economia    | Sala_Verde | Petit_Favre   |
++--------+----------------+-------------+------------+---------------+
+
+
+//UTILIZZO DELLE QUERY:
+
+1)  ELENCARE I RELATORI ITALIANI:
+ select Cognome_Nome, Nazionalita, Anni, Campo_di_interesse
+    -> from Relatore
+    -> where Nazionalita='Italia';
++--------------+-------------+------+--------------------+
+| Cognome_Nome | Nazionalita | Anni | Campo_di_interesse |
++--------------+-------------+------+--------------------+
+| Bitta_Paolo  | Italia      |   47 | Azioni             |
+| Nervi_Luca   | Italia      |   44 | Azioni             |
++--------------+-------------+------+--------------------+
+
+2)  ELENCARE LE NAZIONI IN CUI VI SONO DEI RELATORI:
+select Nazionalita from Relatore;
++-------------+
+| Nazionalita |
++-------------+
+| Italia      |
+| Canada      |
+| Finlandia   |
+| Italia      |
+| Colombia    |
+| Francia     |
++-------------+
+
+3)  ELENCARE TUTTE LE CONFERENZE IN CUI SI PARLA DI AZIONI:
+select Codice, Titolo, Descrizione, Sala, Nome_Relatore
+    -> from Conferenze
+    -> where Descrizione='Azioni';
++--------+-------------+-------------+----------+---------------+
+| Codice | Titolo      | Descrizione | Sala     | Nome_Relatore |
++--------+-------------+-------------+----------+---------------+
+| 111111 | Investitore | Azioni      | Sala_Blu | Bitta_Paolo   |
+| 444444 | Investitore | Azioni      | Sala_Blu | Nervi_Luca    |
++--------+-------------+-------------+----------+---------------+
+
+4)  ELENCARE IL TITOLO DELLE CONFERENZE CON RELATORI FINLANDESI:
+select Titolo, Nome_Relatore
+    -> from Conferenze, Relatore
+    -> where Conferenze.Nome_Relatore=Relatore.Cognome_Nome
+    -> and Nazionalita='Finlandia';
++----------+---------------+
+| Titolo   | Nome_Relatore |
++----------+---------------+
+| Business | Litmanen_Gary |
++----------+---------------+
+
+5)  ELENCARE I RELATORI STRANIERI CHE SI INTERESSANO DI ECONOMIA E IL TITOLO DELLE CONFERENZE CHE TERRANO:
+select Codice, Titolo, Descrizione, Sala, Nome_Relatore
+    -> from Relatore, Conferenze
+    -> where Conferenze.Nome_Relatore=Relatore.Cognome_Nome
+    -> and not Nazionalita='Italia';
++--------+----------------+-------------+------------+---------------+
+| Codice | Titolo         | Descrizione | Sala       | Nome_Relatore |
++--------+----------------+-------------+------------+---------------+
+| 222222 | Control_Viewer | Admin       | Sala_Rossa | Lennon_Paul   |
+| 333333 | Business       | Economia    | Sala_Verde | Litmanen_Gary |
+| 555555 | Control_Viewer | Admin       | Sala_Rossa | Pena_Carlos   |
+| 666666 | Business       | Economia    | Sala_Verde | Petit_Favre   |
++--------+----------------+-------------+------------+---------------+
+
+6)  CONTARE IL NUMERO DI CONFERENZE CHE SI TERRANNO IN SALA Sala_Blu
+select Sala, count(Sala)
+    -> from Conferenze
+    -> where Sala='Sala_Blu';
++----------+-------------+
+| Sala     | count(Sala) |
++----------+-------------+
+| Sala_Blu |           2 |
++----------+-------------+
+
+7)  MODIFICARE IL TITOLO DI UNA CONFERENZA:
+update Conferenze
+    -> set Titolo='Business_Manager'
+    -> where Titolo='Business';
+
+//VERIFICA DELLE MODIFICHE
+select * from Conferenze;
++--------+------------------+-------------+------------+---------------+
+| Codice | Titolo           | Descrizione | Sala       | Nome_Relatore |
++--------+------------------+-------------+------------+---------------+
+| 111111 | Investitore      | Azioni      | Sala_Blu   | Bitta_Paolo   |
+| 222222 | Control_Viewer   | Admin       | Sala_Rossa | Lennon_Paul   |
+| 333333 | Business_Manager | Economia    | Sala_Verde | Litmanen_Gary |
+| 444444 | Investitore      | Azioni      | Sala_Blu   | Nervi_Luca    |
+| 555555 | Control_Viewer   | Admin       | Sala_Rossa | Pena_Carlos   |
+| 666666 | Business_Manager | Economia    | Sala_Verde | Petit_Favre   |
++--------+------------------+-------------+------------+---------------+
+
+8)  STAMPARE NOME E COGNOME DEL RELATORE PIU' ANZIANO:
+select Cognome_Nome, Nazionalita, Anni, Campo_di_interesse
+    -> from relatore
+    -> where Anni in(select max(Anni) from Relatore);
++--------------+-------------+------+--------------------+
+| Cognome_Nome | Nazionalita | Anni | Campo_di_interesse |
++--------------+-------------+------+--------------------+
+| Bitta_Paolo  | Italia      |   47 | Azioni             |
++--------------+-------------+------+--------------------+
+
+
+

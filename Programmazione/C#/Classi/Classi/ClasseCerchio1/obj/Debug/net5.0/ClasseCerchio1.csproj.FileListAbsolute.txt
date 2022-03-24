@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ClasseCerchio1.exe
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ClasseCerchio1.deps.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ClasseCerchio1.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ClasseCerchio1.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ClasseCerchio1.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ref\ClasseCerchio1.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\bin\Debug\net5.0\ClasseCerchio1.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ref\ClasseCerchio1.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseCerchio1\obj\Debug\net5.0\ClasseCerchio1.genruntimeconfig.cache

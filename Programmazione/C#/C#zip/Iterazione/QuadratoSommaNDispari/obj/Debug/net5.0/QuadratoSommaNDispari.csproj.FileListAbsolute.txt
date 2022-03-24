@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\QuadratoSommaNDispari.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\QuadratoSommaNDispari.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\QuadratoSommaNDispari.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\QuadratoSommaNDispari.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\QuadratoSommaNDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\ref\QuadratoSommaNDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\bin\Debug\net5.0\QuadratoSommaNDispari.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\ref\QuadratoSommaNDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\QuadratoSommaNDispari\obj\Debug\net5.0\QuadratoSommaNDispari.genruntimeconfig.cache

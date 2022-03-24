@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\MatriciMultiDimensionali.exe
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\MatriciMultiDimensionali.deps.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\MatriciMultiDimensionali.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\MatriciMultiDimensionali.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\MatriciMultiDimensionali.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\ref\MatriciMultiDimensionali.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\bin\Debug\net5.0\MatriciMultiDimensionali.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\ref\MatriciMultiDimensionali.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\C#zip\Iterazione\MatriciMultiDimensionali\obj\Debug\net5.0\MatriciMultiDimensionali.genruntimeconfig.cache

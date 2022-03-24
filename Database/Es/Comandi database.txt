@@ -1,0 +1,128 @@
+Comdandi
+
+Creare un DataBases:
+CREATE DATABASE databasename;
+
+creare una tabella:
+create table NameTable (Name Variabile(20));
+es- create table FIUME (NomeF VarChar(20));
+
+
+Cancellare una colonna della tabella:
+ALTER TABLE dbo.doc_exb DROP COLUMN column_b;
+es- ALTER TABLE fiume DROP COLUMN portata;
+
+inserire una colonna nella tabella:
+ALTER TABLE dbo.doc_exa ADD column_b VARCHAR(20) NULL;
+es- ALTER TABLE FIUME ADD portata decimal(20);
+
+//
+inserire dati in una tabella:
+insert into NameTable (column_a,column_b,column_c)
+     values ('values','values','values');
+
+es-  insert into FIUME (NomeF,Portata,Navigabile)
+     values ('Adda','187','1');
+
+es- insert into FIUME (NomeF,Portata,Navigabile)
+    values ('Po','1540','1'),
+        ('Adige','235','1'),
+        ('Dora Baltea','96','0')
+    ;
+//
+visualizzare una collona da una tabella:
+select tabella from colonna;
+
+es- select nomep from provincia;
+
+//
+visualizzare una collona da una tabella(preso singolarmente):
+select distinct tabella from colonna;
+
+es- select distinct nomep from provincia;
+
+//visualizzare in ordire si e no, mediante la Variabile 1 e 0:
+select collona
+from tabella
+order by 1 e 0;
+
+es-
+select nomef
+from fiume
+order by navigabile;
+
+//visualizzare una collona secondo una variabile precisa:
+select *
+from tabella
+where colonna = 'Variabile';
+es-
+select *
+from provincia
+where NomeR = 'Piemonte';
+
+//Viusalizzare contati, col count:
+select collona,count(*)
+from tabella
+group by colonna;
+
+es-
+select NomeR,count(*)
+from provincia
+group by NomeR;
+
+//somma di una collona 
+select colonna1, sum(colonna2)  
+from tabella
+where collona1 = 'variavile colonna';
+
+es-
+select NomeR, sum(nab)  
+from provincia
+where nomer = 'Lombardia';
+
+//Media raggruppata per un nome
+select avg(tabella), tabella
+from collona
+group by tabella; // group va messo per viusalizzare la media per ogni campo
+es-
+select avg(nab), nomer
+from provincia
+group by NomeR; 
+
+//Query dentro una Query
+per prendere un valore massmo si fa il select normale
+poi nel where si sleziona tramite altra Query
+cosi la condizione sarà dove cè il massimo, vedere es,
+
+es- 
+select nomep
+from provincia
+where nab=(select max(nab)
+        from provincia);
+
+
+//
+visualizzare il nome del fiume che attraversa più regioni;
+
+select attraversa.nomef,count(distinct provincia.nomer) //metto il count collegato per contare in quante regioni
+from attraversa,provincia
+where attraversa.nomep=provincia.nomep //collego le due tabelle
+group by attraversa.nomef 
+order by count(distinct provincia.nomer) DESC //metto in ordine secondo il count
+limit 1;
+
+//update di una riga
+
+
+update attraversa
+set km=37
+where nomep='Vercelli' and nomef='po'; // il collegamento
+
+//primary key
+create table PERSONAGGI 
+    (Personaggio VarChar(20) primary key,
+    Codice VarChar(20));
+
+//references **
+alter table PERSONAGGI add  FOREIGN KEY (Codice) references OPERE (Codice);
+

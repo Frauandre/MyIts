@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ClassePunto.exe
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ClassePunto.deps.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ClassePunto.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ClassePunto.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ClassePunto.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ref\ClassePunto.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\bin\Debug\net5.0\ClassePunto.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ref\ClassePunto.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClassePunto\obj\Debug\net5.0\ClassePunto.genruntimeconfig.cache

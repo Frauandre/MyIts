@@ -1,0 +1,6 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Prodotto2Reali\bin\Debug\Prodotto2Reali.exe.config
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Prodotto2Reali\bin\Debug\Prodotto2Reali.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Prodotto2Reali\bin\Debug\Prodotto2Reali.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Prodotto2Reali\obj\Debug\Prodotto2Reali.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Prodotto2Reali\obj\Debug\Prodotto2Reali.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Prodotto2Reali\obj\Debug\Prodotto2Reali.pdb

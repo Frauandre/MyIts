@@ -1,0 +1,7 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\bin\Debug\PrezzoQuantitaSconto.exe.config
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\bin\Debug\PrezzoQuantitaSconto.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\bin\Debug\PrezzoQuantitaSconto.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\obj\Debug\PrezzoQuantitaSconto.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\obj\Debug\PrezzoQuantitaSconto.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\obj\Debug\PrezzoQuantitaSconto.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\PrezzoQuantitaSconto\obj\Debug\PrezzoQuantitaSconto.pdb

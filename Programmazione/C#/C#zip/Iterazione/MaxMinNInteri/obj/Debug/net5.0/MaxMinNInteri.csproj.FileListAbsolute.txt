@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\MaxMinNInteri.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\MaxMinNInteri.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\MaxMinNInteri.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\MaxMinNInteri.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\MaxMinNInteri.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\ref\MaxMinNInteri.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\bin\Debug\net5.0\MaxMinNInteri.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\ref\MaxMinNInteri.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Iterazione\MaxMinNInteri\obj\Debug\net5.0\MaxMinNInteri.genruntimeconfig.cache

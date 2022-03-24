@@ -1,0 +1,7 @@
+Tabelle entità:
+ALLEVAMENTO (codA,....)
+BOVINO (codB,....,codaA
+PARTI (tipo, codB, codM
+MACELLAIO (codM,....)
+VETERINARIO (codV, 
+CONTROLLO (CodB, CodV, Data, Esito,

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Nasa's project </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Nasa's recruitment">
+    <meta name="author" content="Andrea Frau">
+</head>
+<body>
+    <script src="js/main.js"></script>
+
+    <h1>Recruit astronauts</h1>
+
+    <p>
+        We are looking for aspiring astronauts,
+        if you are also interested in this opportunity below you can send your application
+        by entering your data in the appropriate spaces.  
+    </p>
+
+    <img src="/img/astronauta_pic.webp" /> <!--Richiama un immagine-->
+
+    <h3>Interested? Provide your data in total security:</h3>
+
+<!--Angolo candidatura-->
+
+    <p>
+        <form>
+            <h4><em>Personal Data:</em></h4>
+            <!--Nome-->
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" id="name" name="form_name" required>
+            <br><br>
+
+            <!--Cognome-->
+            <label for="surname"><strong>Surname:</strong></label>
+            <input type="text" id="surname" name="form_surname" required>
+            <br><br>
+
+            <!--Data di Nascita-->
+            <label for="data di nascita"><strong>Date of birth:</strong></label>
+            <input type="number" name="day" id="day" min="1" max="31" step="1" required>
+            <input type="number" name="mounth" id="mounth" min="1" max="12" step="1" required>
+            <input type="number" name="year" id="year" min="1976" max="2002" step="1" required>
+            <br><br>
+
+            <!--Nazionalità-->
+            <label for="nationality"><strong>Nationality:</strong></label><br>
+            <input type="text" name="user-nationalty" list="nationality" required>
+            <datalist id="nationality">
+                <option>Italy</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Spain</option>
+                <option>England</option>
+                <option>Brazil</option>
+                <option>Portugal</option>
+                <option>Sweden</option>
+                <option>Norway</option>
+            </datalist>
+            <br><br>
+
+            <!--Sesso-->
+            <label for="sex"><strong>Sex:</strong></label><br>
+            <input type="radio" name="gender" id="male" value="man">
+            <label for="male">Man</label>
+            <input type="radio" name="gender" id="female" value="woman" checked="checked">
+            <label for="female">Woman</label>
+            <input type="radio" name="gender" id="other" value="others">
+            <label for="others">Other</label>
+            <br><br>
+
+            <hr>
+
+            <h4><em>Personal description:</em></h4>
+            <!--Altezza-->
+            <label for="height"><strong>Height:</strong></label>
+            <input type="number" name="height" id="height" min="1.60" max="2.30" step="0.01" required>m
+            <br><br>
+            
+            <!--Peso-->
+            <label for="weight"><strong>Weight:</strong></label>
+            <input type="number" name="weight" id="weight" min="65" max="100" step="1" required>kg
+            <br><br>
+
+            <!--Capelli-->
+            <label for="hair"><strong>Hair color:</strong></label><br>
+
+            <input type="radio" name="user-hair" id="brown" value="brown-hair">
+            <label for="brown">Brown</label>
+            <input type="radio" name="user-hair" id="blonde" value="blonde-hair">
+            <label for="blonde">Blonde</label>
+            <input type="radio" name="user-hair" id="black" value="black-hair">
+            <label for="black">Black</label>
+            <input type="radio" name="user-hair" id="red" value="red-hair">
+            <label for="red">Red</label>
+            <input type="radio" name="user-hair" id="other" value="other-hair">
+            <label for="other">Other</label>
+            <br><br>
+
+            <!--Colore occhi-->
+            <label for="eyes"><strong>Eyes color:</strong></label><br>
+
+            <input type="radio" name="user-eyes" id="browns" value="brown-eyes">
+            <label for="browns">Brown</label>
+            <input type="radio" name="user-eyes" id="blue" value="blue-eyes">
+            <label for="blue">Blue</label>
+            <input type="radio" name="user-eyes" id="blacks" value="black-eyes">
+            <label for="blacks">Black</label>
+            <input type="radio" name="user-eyes" id="green" value="green-eyes">
+            <label for="green">Green</label>
+            <input type="radio" name="user-eyes" id="grey" value="grey-eyes">
+            <label for="grey">Grey</label>
+            <br><br>
+
+            <hr>
+           
+            <h4><em>Contacts: </em></h4>
+            <!--Telefono-->
+            <label for="tel"><strong>Telephone: </strong></label><br>
+            <input type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+            <br><br>
+
+            <!--Email-->
+            <label for="email"><strong>Email: </strong></label>
+            <input type="email" name="user-email" id="email">
+            <br><br>
+
+            <!--Indirizzo-->
+            <label for="address"><strong>Address: </strong></label>
+            <textarea rows="4" cols="20" name="user-address" id="address"></textarea>
+            <br><br>
+            
+            <hr>
+
+            <h4><em>Do you want to add more?</em></h4>
+            <!--Biografia-->
+            <label for="biography"><strong>Short biography of yourself (max 255): </strong></label>
+            <textarea rows="4" cols="20" name="user-biography" id="biography"></textarea>
+            <br><br>
+
+            <hr>
+
+            
+            <h4><em>Which mission are you interested in?</em></h4>
+            <!--Missioni-->
+            <label for="missions"><strong>Missions:</strong></label><br>
+            <input type="text" name="planet-mission" list="missions" required>
+            <datalist id="missions">
+                <option>Sun</option>
+                <option>Moon</option>
+                <option>Mercury</option>
+                <option>Venus</option>
+                <option>Mars</option>
+                <option>Uranus</option>
+                <option>Jupiter</option>
+                <option>Saturn</option>
+                <option>Neptune</option>
+            </datalist>
+        </form>
+    </p>
+    
+    
+
+
+</body>
+</html>

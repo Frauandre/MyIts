@@ -1,0 +1,10 @@
+500 km
+velocità trasmissione 100kb/s
+pacchetto di 2000 bit
+tempo propagazione 5 u/km
+calcolare il tempo di trasmissione  e propagazione
+
+
+TT= L/R= 2000/100*1024=19,53 ms
+TP=500*5*10(6)=2,5ms
+Tempo totale=2,5+19,53=22,03ms

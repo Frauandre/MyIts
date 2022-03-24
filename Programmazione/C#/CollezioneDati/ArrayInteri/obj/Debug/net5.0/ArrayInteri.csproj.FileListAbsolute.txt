@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ArrayInteri.exe
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ArrayInteri.deps.json
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ArrayInteri.runtimeconfig.json
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ArrayInteri.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ArrayInteri.dll
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ref\ArrayInteri.dll
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\bin\Debug\net5.0\ArrayInteri.pdb
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.dll
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ref\ArrayInteri.dll
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.pdb
+C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\CollezioneDati\ArrayInteri\obj\Debug\net5.0\ArrayInteri.genruntimeconfig.cache

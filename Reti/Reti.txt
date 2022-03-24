@@ -1,0 +1,111 @@
+PRIMO ESERCIZIO
+
+1)Si adatta un indirizzo ip 147.237.237.123/19
+
+2)Quanti host può indirizzare questa rete?
+
+3)Qual'è l'ip di broadcast della rete?(Quando un hardware manda i pacchetti a tutti gli host della sua rete)
+
+Come procedere:
+-Calcolare l'ip di appartenenza(classeB, se non viene specificato l'ip è classfull)
+-Mettere l'ip assegnato in binario in corrispondenza di ogni bit
+-Trasformare 147 in binario(10010011)
+-Trasformare 237 in binario(11101101)
+-Trasformare 123 in binario(1111011)
+
+-Fare una and logica:
+1)
+
+10010011.11101101.111 01101.1111011[PARTE HOST]
+11111111.11111111.111 00000.0000000
+-----------------------------------
+10010011.11101101.111 00000.0000000 [risultato in binario]
+147.237.224.0/19 è la rete di appartenenza dell'ip assegnato.
+
+2)
+
+N=2(13)-2= 8192-2 = 8190 [formula per trovare il numero di host, unicast]
+
+3)
+
+10010011.11101101.11111111.11111111
+    147.    237.    255.      255.
+
+
+SECONDO ESERCIZIO
+
+Si considera l'ip 105.0.0.0 classfull
+
+1)Determinare la classe A
+
+2)Quante sottoreti/11 possono essere ricavate ipotizzando
+
+105.0.0.0/8------>255.0.0.0
+105.xxx (32-11=21)--->2(21)-2
+
+Quante sottoreti possso ricavare? 11-8=3 bit per le sottoreti
+Chi sono? 000
+          001
+          010
+          011
+          100
+          101
+          110
+          111
+105.xxx
+105.000 00.000000 21bit
+105.000__________ 21bit
+105.001__________ 21bit
+105.010__________ 21bit
+105.011__________ 21bit
+105.100__________ 21bit
+******
+prima :     105.0.0.0/11
+seconda :   105.32.0.0/11
+terza :     105.64.0.0/11
+
+3) Determinare il numero di sottorete per l'ip 105.96.0.0/11
+
+4)Si consideri la sottorete 105.160.0.0/11
+
+TERZO ESERCIZIO
+156.25.0.0/16 classeB
+
+255.255.0.0
+
+1)Determinare n sottoreti/26 e quante sono utilizzabili
+156.25.xxxxxxxx.xxxxxxxx
+       |  10 bit | 6 bit|
+
+2) Definire l'ip della sottorete 754
+ 1011110010=754 Binario
+ 156.25.188.128/26
+
+3)Si considera la sottorete 3
+
+201.184.237.0 /24  255.255.255.0--> C
+                    90 h minimo 7 host
+4 sottoreti         18 h 
+                    5 h 
+                    4 h 
+201.184.237.0/25
+-Qual'è l'ultimo ip utilizzabile di questa sottorete
+201.184.237..126*25
+
+seconda: 201.184.237.120/25
+        201.137
+
+
+Esercizio 131.175.0.0/21
+
+1 sottorete 1000h
+2 sottorete 220h
+3 sottorete 56h
+4 sottorete 2h
+
+131.175.00000|000.00000000  255.255.248.0
+
+1 sott. 1000 host---> 131.175.0.0/22
+2 sott. ---->131.175.4.0/22
+
+        

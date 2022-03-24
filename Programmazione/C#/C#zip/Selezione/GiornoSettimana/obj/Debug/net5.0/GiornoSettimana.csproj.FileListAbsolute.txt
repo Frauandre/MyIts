@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\GiornoSettimana.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\GiornoSettimana.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\GiornoSettimana.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\GiornoSettimana.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\GiornoSettimana.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\ref\GiornoSettimana.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\bin\Debug\net5.0\GiornoSettimana.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\ref\GiornoSettimana.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\GiornoSettimana\obj\Debug\net5.0\GiornoSettimana.genruntimeconfig.cache

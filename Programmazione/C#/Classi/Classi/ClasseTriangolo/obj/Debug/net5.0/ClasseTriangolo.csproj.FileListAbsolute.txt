@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ClasseTriangolo.exe
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ClasseTriangolo.deps.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ClasseTriangolo.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ClasseTriangolo.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ClasseTriangolo.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ref\ClasseTriangolo.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\bin\Debug\net5.0\ClasseTriangolo.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ref\ClasseTriangolo.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseTriangolo\obj\Debug\net5.0\ClasseTriangolo.genruntimeconfig.cache

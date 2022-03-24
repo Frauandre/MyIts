@@ -1,0 +1,7 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\bin\Debug\Somma2Interi.exe.config
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\bin\Debug\Somma2Interi.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\bin\Debug\Somma2Interi.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Sequenza\Somma2Interi\obj\Debug\Somma2Interi.pdb

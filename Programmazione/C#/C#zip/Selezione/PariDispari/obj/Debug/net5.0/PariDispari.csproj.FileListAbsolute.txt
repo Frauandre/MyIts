@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\PariDispari.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\PariDispari.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\PariDispari.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\PariDispari.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\PariDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\ref\PariDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\bin\Debug\net5.0\PariDispari.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\ref\PariDispari.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Selezione\PariDispari\obj\Debug\net5.0\PariDispari.genruntimeconfig.cache

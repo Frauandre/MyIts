@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ClasseQuadrato.exe
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ClasseQuadrato.deps.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ClasseQuadrato.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ClasseQuadrato.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ClasseQuadrato.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ref\ClasseQuadrato.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\bin\Debug\net5.0\ClasseQuadrato.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ref\ClasseQuadrato.dll
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.pdb
+C:\Users\ICTS21-23.282\Desktop\GitHub\Programmazione\C#\Classi\Classi\ClasseQuadrato\obj\Debug\net5.0\ClasseQuadrato.genruntimeconfig.cache
