@@ -1,0 +1,62 @@
+
+body{
+    width: 50%;
+    margin: 0cm;
+    background-color: white;
+    
+}
+
+header{
+    
+    background-color: rgb(255, 208, 0);
+    padding-bottom: 2%;
+    width: 100%;
+    border-style: dashed;
+    
+}
+
+.sidebar{
+    
+    width: 10%;
+    float: left;
+    background-color: orange;
+    border-style: dashed;
+    border-color: black;
+    border-top: 0;
+    padding-top: 5%;
+    padding-bottom: 65%;
+    
+}
+
+.column1{
+
+    width: 44%;
+    float: left;
+    box-sizing: content-box;
+    border-style: dashed;
+    border-color: black;
+    padding-bottom: 30%;
+    
+}
+
+.column2{
+    
+    width: 44%;
+    float: right;
+    box-sizing: content-box;
+    border-style: dashed;
+    border-color: black;
+    padding-bottom: 44%;
+    
+}
+
+footer{
+
+    width: 49.8%;
+    position:absolute;
+    bottom: 0%;
+    height:60px;   
+    background-color:aqua;
+    border-style: dashed;
+}
+

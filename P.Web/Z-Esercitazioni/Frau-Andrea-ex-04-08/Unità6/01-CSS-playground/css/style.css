@@ -1,0 +1,25 @@
+
+body {
+    background-color: rgb(175, 238, 238);
+}
+
+h1 {
+    color: darkmagenta;
+}
+
+li {
+    color: blueviolet;
+}
+
+p {
+    color:brown;
+    font-family: "Times New Roman";
+    border-style: dotted;
+}
+
+img {
+    width:600px;
+    height:400px;
+    border: 10px;
+    padding: 2px;
+}

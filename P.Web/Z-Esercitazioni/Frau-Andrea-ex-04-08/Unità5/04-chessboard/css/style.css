@@ -1,0 +1,19 @@
+    /* Header cells */
+    th{
+    width: 30px;
+    height: 30px;
+   }
+
+   /* Date cells */
+    td{
+    width: 20px;
+    height: 20px;
+   }
+  
+   /* Chessboard patterns */
+   .orange{
+     background-color: orange;
+   }
+   .dark {
+     background-color: black;
+   }

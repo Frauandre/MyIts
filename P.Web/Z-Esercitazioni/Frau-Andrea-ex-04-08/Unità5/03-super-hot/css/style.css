@@ -1,0 +1,58 @@
+/**
+ * style.css
+ *
+ * A series of styles to transform the 'Red Hot Chili Peppers' page
+ * Style the HTML elements according to the following instructions
+ * Do not change the HTML file to do this.  write only css.
+ */
+
+ body {
+    background-color: beige;
+  }
+  
+  /* Add a rule to make links and visited links dark orange */
+
+  a:visited {
+    color:darkorange;
+  }
+
+  a::after{
+    color: darkorange;
+  }
+  
+  /* Add a rule that will make the table header have different background color. */
+
+  th{
+    background-color: lightgreen;
+  }
+  
+  /* Add a rule that will make the first cell in each data row have a red background and white text. */
+
+  td:first-child{
+    background-color: red;
+  }
+  
+  /* Add a rule that will "zebra stripe" the backgrounds of the rows, alternating between white and #eeeeee. */
+
+  tr:nth-child(even) {
+    background-color: #eeeeee;
+  }
+  
+  /*Add a rule that will turn the label red when the checkbox is clicked. */
+
+  input:checked + label {
+    color: red;
+  }
+  
+  /* Add a rule that will make the first letter of the pepper name huge and bold. */
+
+  td:nth-child(2)::first-letter {
+    font-size: 25px;
+  }
+  
+  /* Add a rule that will find any pepper that is superhot and color the link red. */
+
+  [title~=superhot] {
+    color: red;
+  }
+  

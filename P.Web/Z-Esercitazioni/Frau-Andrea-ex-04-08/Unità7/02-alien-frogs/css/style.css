@@ -1,0 +1,98 @@
+
+body{
+       
+    background-color: darkkhaki;
+
+}
+
+/*frogs attributes*/
+
+.frog{
+
+    width: 7em;
+    height: 3em;
+    /*eyes borders*/
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+    border-radius: 0.9em;
+    display: inline-block;
+    margin: 5%;
+    
+}
+
+
+/*green frogs*/
+.frog.green{
+    
+    color: black;
+    background-color: rgb(79, 131, 31);
+}
+.frog.green.dark-Eyes-G::after,.frog.green.dark-Eyes-G::before{
+    color: wheat;
+    background-color: darkgreen;
+}
+.frog.green.light-Eyes-G::after,.frog.green.light-Eyes-G::before{
+    color: black;
+    background-color: lime;
+}
+
+/*orange small frogs dark-Eyes-O*/
+.frog.orange{
+   
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+}
+.frog.orange.dark-Eyes-O::after,.frog.orange.dark-Eyes-O::before{
+    color: aliceblue;
+    background-color: red;
+}
+/*orange big frogs light-Eyes-O*/
+.frog.orange.light-Eyes-O::after,.frog.orange.light-Eyes-O::before{
+    color: black;
+    background-color: rgb(119, 45, 61);
+}
+
+/*big frog*/
+.big{
+    width:  10em;
+}
+
+.frog.orange.small.dark-Eyes-O:hover.frog.orange.dark-Eyes-O::after,
+.frog.orange.small.dark-Eyes-O:hover.frog.orange.dark-Eyes-O::before
+{
+    background-color: black;
+}
+
+.frog.orange.small.dark-Eyes-O{
+    cursor: pointer;
+}
+
+.frog::before{
+    display: block;
+    content: "0";
+    border-style:dashed;
+    border-color:black;
+    border-radius: 120%;
+    position: relative ;
+    left: -10%;
+    top: -30%;
+    width: 20%;
+    
+}
+.frog::after{
+    display:block;
+    content: "0";
+    border-style:dashed;
+    border-color:black;
+    border-radius: 120%;
+    position: relative ;
+    left: 85%;
+    top: -115%;
+    width: 20%;
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+
