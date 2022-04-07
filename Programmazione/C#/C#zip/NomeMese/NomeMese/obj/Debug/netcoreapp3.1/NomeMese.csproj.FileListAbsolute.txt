@@ -1,0 +1,12 @@
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\bin\Debug\netcoreapp3.1\NomeMese.exe
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\bin\Debug\netcoreapp3.1\NomeMese.deps.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\bin\Debug\netcoreapp3.1\NomeMese.runtimeconfig.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\bin\Debug\netcoreapp3.1\NomeMese.runtimeconfig.dev.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\bin\Debug\netcoreapp3.1\NomeMese.dll
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\bin\Debug\netcoreapp3.1\NomeMese.pdb
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\obj\Debug\netcoreapp3.1\NomeMese.AssemblyInfoInputs.cache
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\obj\Debug\netcoreapp3.1\NomeMese.AssemblyInfo.cs
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\obj\Debug\netcoreapp3.1\NomeMese.csproj.CoreCompileInputs.cache
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\obj\Debug\netcoreapp3.1\NomeMese.dll
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\obj\Debug\netcoreapp3.1\NomeMese.pdb
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\NomeMese\NomeMese\obj\Debug\netcoreapp3.1\NomeMese.genruntimeconfig.cache

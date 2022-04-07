@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ereditarieta", "Ereditarieta\Ereditarieta.csproj", "{01E9C070-55E2-4692-8966-168E0CBFEAB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01E9C070-55E2-4692-8966-168E0CBFEAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E9C070-55E2-4692-8966-168E0CBFEAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E9C070-55E2-4692-8966-168E0CBFEAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E9C070-55E2-4692-8966-168E0CBFEAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5E92B03-4617-40E8-9E6B-325415F31AC2}
+	EndGlobalSection
+EndGlobal

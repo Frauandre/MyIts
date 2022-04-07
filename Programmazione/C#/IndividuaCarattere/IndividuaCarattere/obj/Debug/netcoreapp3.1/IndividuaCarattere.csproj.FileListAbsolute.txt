@@ -1,0 +1,12 @@
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\bin\Debug\netcoreapp3.1\IndividuaCarattere.exe
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\bin\Debug\netcoreapp3.1\IndividuaCarattere.deps.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\bin\Debug\netcoreapp3.1\IndividuaCarattere.runtimeconfig.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\bin\Debug\netcoreapp3.1\IndividuaCarattere.runtimeconfig.dev.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\bin\Debug\netcoreapp3.1\IndividuaCarattere.dll
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\bin\Debug\netcoreapp3.1\IndividuaCarattere.pdb
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\obj\Debug\netcoreapp3.1\IndividuaCarattere.AssemblyInfoInputs.cache
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\obj\Debug\netcoreapp3.1\IndividuaCarattere.AssemblyInfo.cs
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\obj\Debug\netcoreapp3.1\IndividuaCarattere.csproj.CoreCompileInputs.cache
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\obj\Debug\netcoreapp3.1\IndividuaCarattere.dll
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\obj\Debug\netcoreapp3.1\IndividuaCarattere.pdb
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\IndividuaCarattere\IndividuaCarattere\obj\Debug\netcoreapp3.1\IndividuaCarattere.genruntimeconfig.cache

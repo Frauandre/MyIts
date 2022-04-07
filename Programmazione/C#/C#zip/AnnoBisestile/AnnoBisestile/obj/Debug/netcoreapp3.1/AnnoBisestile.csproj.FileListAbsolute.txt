@@ -1,0 +1,11 @@
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\bin\Debug\netcoreapp3.1\AnnoBisestile.exe
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\bin\Debug\netcoreapp3.1\AnnoBisestile.deps.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\bin\Debug\netcoreapp3.1\AnnoBisestile.runtimeconfig.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\bin\Debug\netcoreapp3.1\AnnoBisestile.runtimeconfig.dev.json
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\bin\Debug\netcoreapp3.1\AnnoBisestile.dll
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\bin\Debug\netcoreapp3.1\AnnoBisestile.pdb
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\obj\Debug\netcoreapp3.1\AnnoBisestile.AssemblyInfoInputs.cache
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\obj\Debug\netcoreapp3.1\AnnoBisestile.AssemblyInfo.cs
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\obj\Debug\netcoreapp3.1\AnnoBisestile.dll
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\obj\Debug\netcoreapp3.1\AnnoBisestile.pdb
+C:\Users\catal\Desktop\CIFI\C#-2020\Projects\AnnoBisestile\AnnoBisestile\obj\Debug\netcoreapp3.1\AnnoBisestile.csprojAssemblyReference.cache

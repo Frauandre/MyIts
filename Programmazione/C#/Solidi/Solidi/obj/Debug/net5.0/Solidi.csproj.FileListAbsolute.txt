@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\Solidi.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\Solidi.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\Solidi.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\Solidi.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\Solidi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\ref\Solidi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\bin\Debug\net5.0\Solidi.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\ref\Solidi.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Solidi\Solidi\obj\Debug\net5.0\Solidi.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\Ereditarieta.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\Ereditarieta.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\Ereditarieta.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\Ereditarieta.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\Ereditarieta.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\ref\Ereditarieta.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\bin\Debug\net5.0\Ereditarieta.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\ref\Ereditarieta.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Ereditarieta\Ereditarieta\obj\Debug\net5.0\Ereditarieta.genruntimeconfig.cache

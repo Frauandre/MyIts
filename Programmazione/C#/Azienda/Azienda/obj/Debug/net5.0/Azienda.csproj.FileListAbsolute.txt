@@ -1,0 +1,16 @@
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\Azienda.exe
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\Azienda.deps.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\Azienda.runtimeconfig.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\Azienda.runtimeconfig.dev.json
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\Azienda.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\ref\Azienda.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\bin\Debug\net5.0\Azienda.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.csproj.AssemblyReference.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.AssemblyInfoInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.AssemblyInfo.cs
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.csproj.CoreCompileInputs.cache
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\ref\Azienda.dll
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.pdb
+C:\Users\r.catalano\Desktop\Fintech-ProgettiC#\Azienda\Azienda\obj\Debug\net5.0\Azienda.genruntimeconfig.cache
