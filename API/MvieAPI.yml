@@ -1,0 +1,36 @@
+openapi: 3.0.0
+info:
+  title: Movie API
+  description: store my favourite movies
+  version: 0.1.0
+servers: 
+    - url: https://bestmovie.spinforward.it/api/v1/
+      description: Production server
+    - url: https://bestmovie-staging.spinforward.it/api/v1/
+      description: Staging bestMovie server
+paths: 
+  /movie:
+    get:
+      description: Movies Resources List
+      responses: 
+        '200':
+          description: A JSON array on movies
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                 properties:
+                  MovieID:
+                    type: integer
+                    example: 100
+                  ContentID:
+                    type: string
+                    example: 'Scooby Doo'
+                  YearID:
+                    type: integer
+                    example: 2015
+                  KindID:
+                    type: string
+                    example: 'Science Fiction-Comedy'
+                  
