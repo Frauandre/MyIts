@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.container {
+    margin: 0 auto;
+    width:auto;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+div.green{
+    float: left;
+    padding-bottom: 0%;
+}
+
+div.yellow {
+    float: left;
+    position: relative;
+}
+
+div.box {
+    border:solid white 2px;
+    height: 50px;
+    width: 50px;
+}
+
