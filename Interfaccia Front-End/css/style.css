@@ -10,14 +10,17 @@ h1{
     font-size: 50px;
 }
 
-div.green{
-    float: left;
-    padding-bottom: 0%;
+.green {
+    float: left; 
+     
 }
 
-div.yellow {
-    float: left;
-    position: relative;
+.yellow {
+    float: left; 
+}
+
+.grey {
+    float: left; 
 }
 
 div.box {
