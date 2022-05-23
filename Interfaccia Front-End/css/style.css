@@ -1,12 +1,12 @@
 body{
-    background-color: black;
+    background-color: rgb(186, 151, 151);
 }
 .container {
     margin: 0 auto;
     width:auto;
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 50px;
 }
 
