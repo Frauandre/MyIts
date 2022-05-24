@@ -1,77 +1,83 @@
+#background {
+    width: 100%;
+    height: 400px;
+    background-image: url(sfondo.jpg),
+        linear-gradient(to right, rgb(104, 154, 197), rgba(255, 255, 255, 0.596));
+    background-repeat: round;
+}
+
+#header
+{
+	height: 100px;
+    text-align: center;
+}
 
 #info
 {
-	width: 100%; /* si adatta in larghezza a alle
-					risoluzioni di tutti i browser */
+	width: 100%; /* si adatta in larghezza a alle risoluzioni di tutti i browser */
 	height: 36px;
-	background-color: #d46c8f;
+	text-align: center;
 }
 
-#contenitore
+#container
 {
 	width: 820px auto;
 	margin: 0 auto; /* per azzerare */
 	padding: 0; /* per azzerare */
-
 }
 
-#testata
-{
-	height: 203px;
-	padding: 0;
-    text-align: center;
+#contents{
+    margin-left: 100px;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
 
 #footer {
-    background: Silver;
-    margin : 40px;
-    border : 10px solid #CC0033;
+    margin : 0px;
     padding : 10px;
     width : 200px;
     height : 100px;
     border-radius: 0px 0px 100px 100px;
 }
 
-#sfondo {
-    width: 100%;
-    height: 400px;
-    background-image: url(sfondo.jpg),
-        linear-gradient(to right, rgb(104, 154, 197), rgba(255, 255, 255, 0.596));
-    background-repeat: round,
-        round,
-        round;}
-
-       p{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px; font-style: italic;}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px; font-style: italic;
+}
   
-    p::first-line{font-weight: bold;font-family: Georgia;color: blue;}
+p:first-line {
+    font-weight: bold;
+    font-family: Georgia;
+    color: blue;
+}
    
-    div span:nth-child(2){color: red;}
-    div span:first-child{font-size: 20px; color: black;}
+div span:nth-child(2) {
+    color: red;
+}
 
-    table{
-        text-align: center;
-    }
+div span:first-child {
+    font-size: 20px; 
+    color: black;
+}
 
-   div #contenuti img {
-    max-width: 50%;
-    -webkit-box-shadow: #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0);
-    }
+table {
+    position: relative;
+}
    
-    /* formattazione caselle (tag td) */
-    form.fixed {
-        display: flex;
-        text-align: center;
-    }
-   
-    /* stile caselle (td)*/
+form.fixed {  /* formattazione caselle (tag td) */
+    display: flex;
+    text-align: center;
+}
     
-    .excluded input, .fixed input, .unfixed0 input  {
+    .excluded input, .fixed input, .unfixed0 input  { /* stile caselle (td)*/
         max-width: 2em;
         height: 2em;
-        background: rgb(124, 124, 228);
-        color: #fff;
+        background:whitesmoke;
+        color: black;
         border: none;
         text-align: center;
         font-size: 2em;
