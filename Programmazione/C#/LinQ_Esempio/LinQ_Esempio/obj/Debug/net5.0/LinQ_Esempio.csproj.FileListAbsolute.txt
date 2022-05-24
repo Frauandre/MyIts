@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\LinQ_Esempio.exe
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\LinQ_Esempio.deps.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\LinQ_Esempio.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\LinQ_Esempio.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\LinQ_Esempio.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\ref\LinQ_Esempio.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\bin\Debug\net5.0\LinQ_Esempio.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\ref\LinQ_Esempio.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\LinQ_Esempio\LinQ_Esempio\obj\Debug\net5.0\LinQ_Esempio.genruntimeconfig.cache
