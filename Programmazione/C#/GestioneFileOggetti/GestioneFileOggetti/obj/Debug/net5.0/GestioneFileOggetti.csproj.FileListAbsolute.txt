@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\GestioneFileOggetti.exe
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\GestioneFileOggetti.deps.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\GestioneFileOggetti.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\GestioneFileOggetti.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\GestioneFileOggetti.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\ref\GestioneFileOggetti.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\bin\Debug\net5.0\GestioneFileOggetti.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\ref\GestioneFileOggetti.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileOggetti\GestioneFileOggetti\obj\Debug\net5.0\GestioneFileOggetti.genruntimeconfig.cache

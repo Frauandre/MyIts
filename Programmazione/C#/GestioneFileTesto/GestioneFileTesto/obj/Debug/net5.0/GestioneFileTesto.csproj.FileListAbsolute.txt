@@ -1,0 +1,16 @@
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.AssemblyInfoInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.AssemblyInfo.cs
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\GestioneFileTesto.exe
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\GestioneFileTesto.deps.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\GestioneFileTesto.runtimeconfig.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\GestioneFileTesto.runtimeconfig.dev.json
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\GestioneFileTesto.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\ref\GestioneFileTesto.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\bin\Debug\net5.0\GestioneFileTesto.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\ref\GestioneFileTesto.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GestioneFileTesto\GestioneFileTesto\obj\Debug\net5.0\GestioneFileTesto.genruntimeconfig.cache

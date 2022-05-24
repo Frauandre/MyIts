@@ -16,7 +16,7 @@ namespace LinQToObject
                 new Cliente {CodiceFiscale = "LPVBNMJJHLFRS77", Nome = "Ilaria", Cognome = "Manina"},
             };
 
-            var q1 = from oggetto in elenco select tutti;
+            var q1 = from tutti in elenco select tutti;  
             Console.WriteLine("Tutti gli oggetti");
             Console.WriteLine(string.Join("\n", q1));
 
