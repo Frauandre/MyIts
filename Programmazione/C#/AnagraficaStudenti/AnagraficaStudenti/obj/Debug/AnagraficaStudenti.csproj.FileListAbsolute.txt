@@ -1,0 +1,10 @@
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\bin\Debug\AnagraficaStudenti.exe.config
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\bin\Debug\AnagraficaStudenti.exe
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\bin\Debug\AnagraficaStudenti.pdb
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.MDI.resources
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.Properties.Resources.resources
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.csproj.GenerateResource.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.exe
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\AnagraficaStudenti\AnagraficaStudenti\obj\Debug\AnagraficaStudenti.pdb
