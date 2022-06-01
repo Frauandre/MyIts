@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wordle Solver</title>
+    <meta name="description" content="">
+    <meta name="author" content="DatUS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css/style.css">
+    <link rel="icon" type="icon" href="img/icon.png">
+</head>
+<body id="background">
+
+    <header id="head">
+            <h1>WordleSolver</h1>
+    </header>
+
+    <div class="container">
+        <form id="formArea">
+        <div id="firstWord">
+            <h2>Parole con cui iniziare...</h2>
+            <marquee id="initialWords" direction="left" scrollamount="6" width="100%" height="100%">
+
+            </marquee>
+        </div>
+        <table>
+            <tr>
+                <td class="color green">Lettere verdi:</td>
+                <td class="letter" ><input id="greenCell-0" type="text" name="greenCell-0" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greenCell-1" type="text" name="greenCell-1" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greenCell-2" type="text" name="greenCell-2" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greenCell-3" type="text" name="greenCell-3" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greenCell-4" type="text" name="greenCell-4" maxlength="1" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td class="color yellow">Lettere gialle:</td>
+                <td class="letter" ><input id="yellowCell-0" type="text" name="yellowCell-0" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="yellowCell-1" type="text" name="yellowCell-1" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="yellowCell-2" type="text" name="yellowCell-2" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="yellowCell-3" type="text" name="yellowCell-3" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="yellowCell-4" type="text" name="yellowCell-4" maxlength="1" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td class="color grey">Lettere grigie:</td>
+                <td class="letter" ><input id="greyCell-0" type="text" name="greyCell-0" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greyCell-1" type="text" name="greyCell-1" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greyCell-2" type="text" name="greyCell-2" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greyCell-3" type="text" name="greyCell-3" maxlength="1" autocomplete="off"></td>
+                <td class="letter" ><input id="greyCell-4" type="text" name="greyCell-4" maxlength="1" autocomplete="off"></td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <input class="button send" type="submit" value="Consigliami">
+            <input class="button reset" type="reset" value="Annulla"> <!--controllare che cancelli tutto il processo in backend-->
+        </div>
+
+    </form>
+
+
+        <div id="suggestions">
+            <h2>Parole suggerite</h2>
+            <table>
+                <tr><td>word1</td></tr>
+                <tr><td>word2</td></tr>
+                <tr><td>word3</td></tr>
+                <tr><td>word4</td></tr>
+                <tr><td>word5</td></tr>
+                <tr><td>word6</td></tr>
+                <tr><td>word7</td></tr>
+                <tr><td>word8</td></tr>
+                <tr><td>word9</td></tr>
+            </table>
+        </div>
+
+
+</div>
+
+    <footer class="bg-light text-center text-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Developed by DatUs
+      <a class="text-dark" href="https://mdbootstrap.com/"></a>
+    </div>
+    </footer>
+
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
