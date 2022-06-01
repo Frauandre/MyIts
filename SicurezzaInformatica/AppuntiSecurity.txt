@@ -1,0 +1,4 @@
+Algoritmo Diffie-Helmann: Algoritmo di decifrazione della chiave
+
+Man in the Middle Attack: l'attacco è diretto ai protocolli utilizzati
+
