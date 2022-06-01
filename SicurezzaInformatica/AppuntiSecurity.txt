@@ -1,4 +1,8 @@
 Algoritmo Diffie-Helmann: Algoritmo di decifrazione della chiave
 
-Man in the Middle Attack: l'attacco è diretto ai protocolli utilizzati
+Man in the Middle Attack: l'attacco è diretto ai protocolli utilizzati, quindi l'attaccante intercetta le informazioni e le modifica
+
+Risolvere il Man in the middle: Può avvenire tramite verifica manuale, (videocall telegram, whatsapp qr code), oppure tramite certificazione
+
+
 
