@@ -10,7 +10,7 @@
     <link rel="icon" type="icon" href="img/icon.png">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="/img/icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -20,12 +20,11 @@
     </nav>
     <div class="container my-5 text-center">
         <h2>Parole con cui iniziare...</h2>
-        <form id="formArea">
-            <div class="row">
+        <form id="formArea my-5 text-center">
                 <div id="firstWord">
                     <marquee id="initialWords" direction="left" scrollamount="6" width="100%" height="100%"></marquee>
                 </div>
-                <div class="table-responsive">
+                <div class="mx-auto" style="width: 200px;">
                     <table id="myTable">
                         <tr>
                             <td class="color green">Lettere verdi:</td>
@@ -53,8 +52,6 @@
                         </tr>
                     </table>
                 </div>
-            
-            </div>
         </form>
         <br>
         <div class="row">
@@ -63,7 +60,6 @@
                 <input class="btn btn-danger" type="reset" value="Termina"> <!--controllare che cancelli tutto il processo in backend-->
             </div>
         </div>
-
 
         <div id="suggestions">
             <h2>Parole suggerite</h2>
