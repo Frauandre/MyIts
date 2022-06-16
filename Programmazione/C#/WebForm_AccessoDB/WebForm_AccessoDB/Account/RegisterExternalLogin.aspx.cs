@@ -1,0 +1,130 @@
+﻿using System;
+using System.Web;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
+using Owin;
+using WebForm_AccessoDB.Models;
+
+namespace WebForm_AccessoDB.Account
+{
+    public partial class RegisterExternalLogin : System.Web.UI.Page
+    {
+        protected string ProviderName
+        {
+            get { return (string)ViewState["ProviderName"] ?? String.Empty; }
+            private set { ViewState["ProviderName"] = value; }
+        }
+
+        protected string ProviderAccountKey
+        {
+            get { return (string)ViewState["ProviderAccountKey"] ?? String.Empty; }
+            private set { ViewState["ProviderAccountKey"] = value; }
+        }
+
+        private void RedirectOnFail()
+        {
+            Response.Redirect((User.Identity.IsAuthenticated) ? "~/Account/Manage" : "~/Account/Login");
+        }
+
+        protected void Page_Load()
+        {
+            // Elaborare il risultato fornito da un provider di autenticazione nella richiesta
+            ProviderName = IdentityHelper.GetProviderNameFromRequest(Request);
+            if (String.IsNullOrEmpty(ProviderName))
+            {
+                RedirectOnFail();
+                return;
+            }
+            if (!IsPostBack)
+            {
+                var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                var signInManager = Context.GetOwinContext().Get<ApplicationSignInManager>();
+                var loginInfo = Context.GetOwinContext().Authentication.GetExternalLoginInfo();
+                if (loginInfo == null)
+                {
+                    RedirectOnFail();
+                    return;
+                }
+                var user = manager.Find(loginInfo.Login);
+                if (user != null)
+                {
+                    signInManager.SignIn(user, isPersistent: false, rememberBrowser: false);
+                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                }
+                else if (User.Identity.IsAuthenticated)
+                {
+                    // Applicare il controllo XSRF durante il collegamento
+                    var verifiedloginInfo = Context.GetOwinContext().Authentication.GetExternalLoginInfo(IdentityHelper.XsrfKey, User.Identity.GetUserId());
+                    if (verifiedloginInfo == null)
+                    {
+                        RedirectOnFail();
+                        return;
+                    }
+
+                    var result = manager.AddLogin(User.Identity.GetUserId(), verifiedloginInfo.Login);
+                    if (result.Succeeded)
+                    {
+                        IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    }
+                    else
+                    {
+                        AddErrors(result);
+                        return;
+                    }
+                }
+                else
+                {
+                    email.Text = loginInfo.Email;
+                }
+            }
+        }        
+        
+        protected void LogIn_Click(object sender, EventArgs e)
+        {
+            CreateAndLoginUser();
+        }
+
+        private void CreateAndLoginUser()
+        {
+            if (!IsValid)
+            {
+                return;
+            }
+            var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            var signInManager = Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
+            var user = new ApplicationUser() { UserName = email.Text, Email = email.Text };
+            IdentityResult result = manager.Create(user);
+            if (result.Succeeded)
+            {
+                var loginInfo = Context.GetOwinContext().Authentication.GetExternalLoginInfo();
+                if (loginInfo == null)
+                {
+                    RedirectOnFail();
+                    return;
+                }
+                result = manager.AddLogin(user.Id, loginInfo.Login);
+                if (result.Succeeded)
+                {
+                    signInManager.SignIn(user, isPersistent: false, rememberBrowser: false);
+
+                    // Per altre informazioni su come abilitare la conferma dell'account e la reimpostazione della password, vedere https://go.microsoft.com/fwlink/?LinkID=320771
+                    // var code = manager.GenerateEmailConfirmationToken(user.Id);
+                    // Inviare questo collegamento tramite posta elettronica: IdentityHelper.GetUserConfirmationRedirectUrl(code, user.Id)
+
+                    IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                    return;
+                }
+            }
+            AddErrors(result);
+        }
+
+        private void AddErrors(IdentityResult result) 
+        {
+            foreach (var error in result.Errors) 
+            {
+                ModelState.AddModelError("", error);
+            }
+        }
+    }
+}
