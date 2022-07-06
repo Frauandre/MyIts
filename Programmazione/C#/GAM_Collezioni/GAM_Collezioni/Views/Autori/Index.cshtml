@@ -1,0 +1,70 @@
+﻿@model IEnumerable<GAM_Collezioni.Models.Mostra>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Elenco Mostre</h2>
+
+<div>
+    @using (Html.BeginForm())
+    {
+    Cerca titolo: @Html.TextBox("CercaTitolo")
+    <br />
+    Cerca tecnica: @Html.DropDownList("CercaTecnica")
+    <br />
+    Cerca tecnica: @Html.DropDownList("CercaTecnica")
+    <br />
+    <input type="submit" value="Cerca" />
+    }
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Autore.Nominativo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Titolo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Datazione)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tecnica)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dimensioni)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Immagine)
+        </th>
+
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => Autore.Nominativo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Titolo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Datazione)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Tecnica)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Dimensioni)
+    </td>
+    <td>
+        <img src="@item.Immagine" width="200" height="200" />
+    </td>
+    <td>
+        @Html.ActionLink("Visualizza", "Dettaglio", new {id=item.Id})
+    </td>
+</tr>
+}
+
+</table>

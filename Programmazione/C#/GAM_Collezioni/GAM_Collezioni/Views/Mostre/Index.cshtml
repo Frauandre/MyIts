@@ -1,0 +1,52 @@
+﻿@model IEnumerable<GAM_Collezioni.Models.Mostra>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Elenco Mostre</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Titolo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Datazione)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tecnica)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dimensioni)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Immagine)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {    
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titolo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Datazione)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tecnica)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dimensioni)
+        </td>
+        <td>
+            <img src="@item.Immagine" width="200" height="200" />
+        </td>
+        <td>
+            @Html.ActionLink("Visualizza", "Dettaglio", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

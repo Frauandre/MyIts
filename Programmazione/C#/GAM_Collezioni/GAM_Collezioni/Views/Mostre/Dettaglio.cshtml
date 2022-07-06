@@ -1,0 +1,57 @@
+﻿@model GAM_Collezioni.Models.Mostra
+
+@{
+    ViewBag.Title = "Dettaglio";
+}
+
+<h2>Dettaglio</h2>
+
+<div>
+    <h4>Mostra</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Titolo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titolo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Datazione)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datazione)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tecnica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tecnica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dimensioni)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dimensioni)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Immagine)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Immagine)
+        </dd>
+
+    </dl>
+</div>
+<p>    
+    @Html.ActionLink("Torna indietro", "Index")
+</p>

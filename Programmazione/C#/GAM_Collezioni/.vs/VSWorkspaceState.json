@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GAM_Collezioni",
+    "\\GAM_Collezioni\\Controllers",
+    "\\GAM_Collezioni\\Models",
+    "\\GAM_Collezioni\\Properties",
+    "\\GAM_Collezioni\\Views",
+    "\\GAM_Collezioni\\Views\\Autori",
+    "\\GAM_Collezioni\\Views\\Mostre",
+    "\\GAM_Collezioni\\Views\\Shared"
+  ],
+  "SelectedNode": "\\GAM_Collezioni\\Controllers\\MostreController.cs",
+  "PreviewInSolutionExplorer": false
+}
