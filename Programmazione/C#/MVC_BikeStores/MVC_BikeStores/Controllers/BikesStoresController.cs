@@ -20,8 +20,8 @@ namespace MVC_BikeStores.Controllers
         {
 
             //Cerca per Marca
-            if (!string.IsNullOrEmpty(CercaMarca))
-                CercaMarca = db.products.Include("").Where(t => t.brands.ToLower().Contains(CercaMarca.ToLower()).ToList();
+            /*if (!string.IsNullOrEmpty(CercaMarca))
+                CercaMarca = db.products.Include("Marca").Where(t => t.brands.ToLower().Contains(CercaMarca.ToLower()).ToList();*/
             return View(db.products.ToList());
         }
 
