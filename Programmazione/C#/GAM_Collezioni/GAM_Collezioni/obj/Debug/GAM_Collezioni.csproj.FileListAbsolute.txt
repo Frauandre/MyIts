@@ -90,3 +90,9 @@ C:\_Progetti\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.pdb
 C:\_Progetti\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.Migrations.GamCollezioni.resources
 C:\_Progetti\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.csproj.GenerateResource.cache
 C:\_Progetti\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.csproj.AssemblyReference.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.Migrations.GamCollezioni.resources
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.csproj.GenerateResource.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.csproj.CoreCompileInputs.cache
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.dll
+C:\Users\ICTS21-23.282\Desktop\MyIts\Programmazione\C#\GAM_Collezioni\GAM_Collezioni\obj\Debug\GAM_Collezioni.pdb
