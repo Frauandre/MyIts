@@ -16,12 +16,16 @@ namespace MVC_BikeStores.Controllers
         // GET: BikesStores
 
         //Creo una view in modo tale da visualizzare l'elenco delle bici
-        public ActionResult Index(string CercaMarca)
+        public ActionResult Index(string cercaBrand)
         {
+            var products = db.products.ToList();
 
+            var brands = db.brands.Select(x => x.brand_name == cercaBrand).ToList();
+            ViewBag.cercaBrand = new SelectList(brands);
+            
             //Cerca per Marca
-            if (!string.IsNullOrEmpty(CercaMarca))
-                CercaMarca = db.products.Include("").Where(t => t.brands.ToLower().Contains(CercaMarca.ToLower()).ToList();
+            if (!string.IsNullOrEmpty(cercaBrand))
+                products = db.products.Where(x => x.brands.brand_name==cercaBrand.ToLower()).ToList();
             return View(db.products.ToList());
         }
 
