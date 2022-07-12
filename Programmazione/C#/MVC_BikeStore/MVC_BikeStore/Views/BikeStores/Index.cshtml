@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MVC_BikeStore.Models.Brands>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Brand_Name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand_Name)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Brand_Id })
+            </td>
+        </tr>
+    }
+
+</table>
