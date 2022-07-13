@@ -1,0 +1,57 @@
+﻿@model MVC_BikeStores.Models.Product
+
+@{
+    ViewBag.Title = "ProductDetails";
+}
+
+<h2>ProductDetails</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Brand.Brand_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Brand.Brand_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Category_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Category_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Model_Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Model_Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.List_Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.List_Price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MVC_BikeStores",
+    "\\MVC_BikeStores\\Controllers",
+    "\\MVC_BikeStores\\Models",
+    "\\MVC_BikeStores\\Properties",
+    "\\MVC_BikeStores\\Views",
+    "\\MVC_BikeStores\\Views\\Shared",
+    "\\MVC_BikeStores\\Views\\Staffs",
+    "\\MVC_BikeStores\\Views\\Stores"
+  ],
+  "SelectedNode": "\\MVC_BikeStores\\Controllers\\AccountController.cs",
+  "PreviewInSolutionExplorer": false
+}
