@@ -29,5 +29,7 @@ namespace MVC_BikeStore.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVC_BikeStore.Models.Brands> Brands { get; set; }
     }
 }

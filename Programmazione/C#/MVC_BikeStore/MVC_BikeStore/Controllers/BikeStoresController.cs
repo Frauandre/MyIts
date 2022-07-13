@@ -12,15 +12,16 @@ namespace MVC_BikeStore.Controllers
         private BikeStoresContext db = new BikeStoresContext();
         // GET: BikeStores
         public ActionResult Index()
-        {
-            
+        {          
             var brands = db.Brands.OrderBy(x => x.Brand_Name.ToList());
             return View(db.Brands.ToList());
+            
         }
 
         public ActionResult Details(int id)
         {
             return View(db.Brands.Find(id));
         }
+        
     }
 }

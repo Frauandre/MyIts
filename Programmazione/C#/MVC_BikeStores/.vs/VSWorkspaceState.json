@@ -4,8 +4,10 @@
     "\\MVC_BikeStores",
     "\\MVC_BikeStores\\Controllers",
     "\\MVC_BikeStores\\Views",
-    "\\MVC_BikeStores\\Views\\BikesStores"
+    "\\MVC_BikeStores\\Views\\BikesStores",
+    "\\MVC_BikeStores\\Views\\Manage",
+    "\\MVC_BikeStores\\Views\\Shared"
   ],
-  "SelectedNode": "\\MVC_BikeStores.sln",
+  "SelectedNode": "\\MVC_BikeStores\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

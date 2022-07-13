@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MVC_BikeStore.Models.Products>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Brands.Brand_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Categories.Category_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Model_Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.List_Price)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Brands.Brand_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Categories.Category_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Model_Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.List_Price)
+        </td>
+        <td>        
+            @Html.ActionLink("Details", "Details", new { id=item.Product_Id }) 
+        </td>
+    </tr>
+}
+
+</table>
