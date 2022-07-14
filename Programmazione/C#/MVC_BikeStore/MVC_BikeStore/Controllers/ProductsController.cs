@@ -9,18 +9,22 @@ namespace MVC_BikeStore.Controllers
 {
     public class ProductsController : Controller
     {
-        private ProductsContext db = new ProductsContext();
+        private BikeStoresContext db = new BikeStoresContext();
         // GET: Products
         public ActionResult Index()
         {
             var products = db.Products.OrderBy(x => x.Product_Name.ToList());
             return View(db.Products.ToList());
-
         }
 
-        public ActionResult Details(int id)
+        public ActionResult ProductsDetails(int id)
         {
             return View(db.Products.Find(id));
+        }
+        public ActionResult ElencoProdottiPerMarca(int id)
+        {
+            var products = db.Products.Where(x => x.Brand_Id == id).OrderBy(x => x.Product_Name).ToList();
+            return View("Index", products);
         }
     }
 }

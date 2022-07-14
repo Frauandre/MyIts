@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MVC_BikeStore.Models.Staffs>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Staffs2.First_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stores.Store_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Last_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Staffs2.First_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stores.Store_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.First_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Last_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Active)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Staff_Id }) |
+            @Html.ActionLink("Details", "StaffDetails", new { id=item.Staff_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Staff_Id })
+        </td>
+    </tr>
+}
+
+</table>

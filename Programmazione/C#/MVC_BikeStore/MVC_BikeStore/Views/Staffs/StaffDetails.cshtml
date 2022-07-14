@@ -1,0 +1,69 @@
+﻿@model MVC_BikeStore.Models.Staffs
+
+<h2>StaffDetails</h2>
+
+<div>
+    <h4>Staffs</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Staffs2.First_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Staffs2.First_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stores.Store_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stores.Store_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.First_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.First_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Last_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Last_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "DettaglioDipendente", "Stores", new { id = Model.Store_Id }, null)
+</p>

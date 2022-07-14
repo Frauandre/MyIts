@@ -18,7 +18,7 @@ namespace MVC_BikeStore.Controllers
             
         }
 
-        public ActionResult Details(int id)
+        public ActionResult BrandsDetails(int id)
         {
             return View(db.Brands.Find(id));
         }

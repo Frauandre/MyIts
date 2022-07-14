@@ -15,16 +15,15 @@
         <th></th>
     </tr>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Brand_Name)
-            </td>
-            <td>
-                @Html.ActionLink("Details", "Details", new { id = item.Brand_Id })
-            </td>
-        </tr>
-    }
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Brand_Name)
+        </td>
+        <td>          
+            @Html.ActionLink("Details", "BrandsDetails", new { id=item.Brand_Id })
+        </td>
+    </tr>
+}
 
 </table>

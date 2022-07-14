@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Applicazione ASP.NET</title>
+    <title>@ViewBag.Title - BikeStore</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Nome dell'applicazione", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("BikeStore", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -27,6 +27,7 @@
                     <li>@Html.ActionLink("Contatto", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Brands", "Index", "BikeStores")</li>
                     <li>@Html.ActionLink("Prodotti", "Index", "Products")</li>
+                    <li>@Html.ActionLink("Negozio", "Index", "Stores")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
