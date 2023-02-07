@@ -1,0 +1,8 @@
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\bin\Debug\Divisione2Interi.exe.config
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\bin\Debug\Divisione2Interi.exe
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\bin\Debug\Divisione2Interi.pdb
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.csproj.AssemblyReference.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.csproj.SuggestedBindingRedirects.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.csproj.CoreCompileInputs.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.exe
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Sequenza\Divisione2Interi\obj\Debug\Divisione2Interi.pdb

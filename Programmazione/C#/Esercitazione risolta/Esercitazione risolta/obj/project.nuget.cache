@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SrdQnvw8k1oM6u7vWUXWKCmUoLfhEIzUkaNV8QomOZyIiwak5UVEOVlVE8W7Oo2gYQhpXTLq0Uo1CoK5BRAkUA==",
+  "dgSpecHash": "sk8rCczXJ331OrKV93jzhMq8xN7NHlDkaQg+dSza2iEhmrc7nTOHH0f2LHA1bQuTSftziL4AwHfnPLP85O+RVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ICTS21-23.282\\Desktop\\MyIts\\Programmazione\\C#\\Esercitazione risolta\\Esercitazione risolta\\Esercitazione risolta.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\frauc\\Desktop\\MyIts\\Programmazione\\C#\\Esercitazione risolta\\Esercitazione risolta\\Esercitazione risolta.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

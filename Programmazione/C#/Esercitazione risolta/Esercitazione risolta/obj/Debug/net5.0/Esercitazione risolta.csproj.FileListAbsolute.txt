@@ -1,0 +1,5 @@
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Esercitazione risolta\Esercitazione risolta\obj\Debug\net5.0\Esercitazione risolta.csproj.AssemblyReference.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Esercitazione risolta\Esercitazione risolta\obj\Debug\net5.0\Esercitazione risolta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Esercitazione risolta\Esercitazione risolta\obj\Debug\net5.0\Esercitazione risolta.AssemblyInfoInputs.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Esercitazione risolta\Esercitazione risolta\obj\Debug\net5.0\Esercitazione risolta.AssemblyInfo.cs
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Esercitazione risolta\Esercitazione risolta\obj\Debug\net5.0\Esercitazione risolta.csproj.CoreCompileInputs.cache
