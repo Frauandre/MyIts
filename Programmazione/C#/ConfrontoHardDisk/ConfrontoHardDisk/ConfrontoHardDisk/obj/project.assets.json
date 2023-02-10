@@ -62,10 +62,13 @@
             "version": "[5.0.0, 5.0.0]"
           },
           {
+<<<<<<< Updated upstream
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[5.0.17, 5.0.17]"
           },
           {
+=======
+>>>>>>> Stashed changes
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[5.0.0, 5.0.0]"
           },
