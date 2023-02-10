@@ -107,7 +107,7 @@ namespace Azienda
 
             Console.WriteLine();
 
-            //stampa dell'elenco dei dipendneti
+            //stampa dell'elenco dei dipendenti
             Console.WriteLine("Elenco Operai ma non Specializzati");
             foreach (var d in elenco)
                 if (d is Operaio && d is not OperaioSpecializzato) //polimorfismo - una forma

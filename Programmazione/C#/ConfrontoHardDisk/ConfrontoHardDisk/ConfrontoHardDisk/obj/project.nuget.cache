@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Duu9p0zty0GCACdRVZOOr1rwLdEHyLFbsgaIqkSWPf2gPGDkIYbdyAQUaA0j58vf5ZJH99BEn+7LmQWd38kqAw==",
+  "dgSpecHash": "Yb08C6x1m7zczgAhAJkWXIPDESd9m02FcjfSO7ef8FMQ7xfnT43pQQNgmRLsdiDZn3l6chGXs7A3uWnkR15AjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ICTS21-23.282\\Desktop\\MyIts\\Programmazione\\C#\\ConfrontoHardDisk\\ConfrontoHardDisk\\ConfrontoHardDisk\\ConfrontoHardDisk.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\frauc\\Desktop\\MyIts\\Programmazione\\C#\\ConfrontoHardDisk\\ConfrontoHardDisk\\ConfrontoHardDisk\\ConfrontoHardDisk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

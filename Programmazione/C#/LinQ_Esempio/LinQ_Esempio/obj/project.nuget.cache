@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TVa46Fsu0oSlKw/dbI/gCbY8fwcGDv8zm/vG8YwmhXjr7caXKpvW6vPc+crijNyo+LSnWDcuxpE67wiXRS6LHQ==",
+  "dgSpecHash": "WfmNK6oMLbPSACBIZxWGx1jFJrgDckGJzD64wBBNEx1TgTyJhylqoVaEpClluswDlR6GxHaKWF4H/F/pMLw1zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ICTS21-23.282\\Desktop\\MyIts\\Programmazione\\C#\\LinQ_Esempio\\LinQ_Esempio\\LinQ_Esempio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\frauc\\Desktop\\MyIts\\Programmazione\\C#\\LinQ_Esempio\\LinQ_Esempio\\LinQ_Esempio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
