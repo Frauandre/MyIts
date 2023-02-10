@@ -5,7 +5,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "dgSpecHash": "Yb08C6x1m7zczgAhAJkWXIPDESd9m02FcjfSO7ef8FMQ7xfnT43pQQNgmRLsdiDZn3l6chGXs7A3uWnkR15AjQ==",
+=======
+  "dgSpecHash": "C9sr+O4/r0auwJGvJIBamrVE8VfHlhrDAjcOPJZ18s6s/hGn/QicxI2K3582YRMwzNigHretZF1axebwOgeCjA==",
+>>>>>>> Stashed changes
 =======
   "dgSpecHash": "C9sr+O4/r0auwJGvJIBamrVE8VfHlhrDAjcOPJZ18s6s/hGn/QicxI2K3582YRMwzNigHretZF1axebwOgeCjA==",
 >>>>>>> Stashed changes
@@ -31,8 +35,12 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "C:\\Users\\frauc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\frauc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+=======
+    "C:\\Users\\frauc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+>>>>>>> Stashed changes
 =======
     "C:\\Users\\frauc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
 >>>>>>> Stashed changes
