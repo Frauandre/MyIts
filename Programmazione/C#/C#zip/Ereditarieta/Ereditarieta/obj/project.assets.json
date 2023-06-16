@@ -8,25 +8,20 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\r.catalano\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\frauc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\r.catalano\\Desktop\\Fintech-ProgettiC#\\Ereditarieta\\Ereditarieta\\Ereditarieta.csproj",
+      "projectUniqueName": "C:\\Users\\frauc\\Desktop\\MyIts\\Programmazione\\C#\\C#zip\\Ereditarieta\\Ereditarieta\\Ereditarieta.csproj",
       "projectName": "Ereditarieta",
-      "projectPath": "C:\\Users\\r.catalano\\Desktop\\Fintech-ProgettiC#\\Ereditarieta\\Ereditarieta\\Ereditarieta.csproj",
-      "packagesPath": "C:\\Users\\r.catalano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\r.catalano\\Desktop\\Fintech-ProgettiC#\\Ereditarieta\\Ereditarieta\\obj\\",
+      "projectPath": "C:\\Users\\frauc\\Desktop\\MyIts\\Programmazione\\C#\\C#zip\\Ereditarieta\\Ereditarieta\\Ereditarieta.csproj",
+      "packagesPath": "C:\\Users\\frauc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\frauc\\Desktop\\MyIts\\Programmazione\\C#\\C#zip\\Ereditarieta\\Ereditarieta\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\r.catalano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\frauc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -56,16 +51,31 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

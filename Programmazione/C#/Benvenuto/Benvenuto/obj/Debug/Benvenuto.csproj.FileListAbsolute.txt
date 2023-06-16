@@ -5,3 +5,11 @@ C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debu
 C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.csproj.CoreCompileInputs.cache
 C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.exe
 C:\Users\ICTS21-23.282\Documents\Programmazzione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.pdb
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\bin\Debug\Benvenuto.exe.config
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\bin\Debug\Benvenuto.exe
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\bin\Debug\Benvenuto.pdb
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.csproj.AssemblyReference.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.csproj.SuggestedBindingRedirects.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.csproj.CoreCompileInputs.cache
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.exe
+C:\Users\frauc\Desktop\MyIts\Programmazione\C#\Benvenuto\Benvenuto\obj\Debug\Benvenuto.pdb

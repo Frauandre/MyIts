@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MVC_BikeStore",
+    "\\MVC_BikeStore\\Views",
+    "\\MVC_BikeStore\\Views\\Account"
   ],
-  "SelectedNode": "\\MVC_BikeStore.sln",
+  "SelectedNode": "\\MVC_BikeStore\\Views\\Account\\ResetPassword.cshtml",
   "PreviewInSolutionExplorer": false
 }
